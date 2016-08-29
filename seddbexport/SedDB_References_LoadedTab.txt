@@ -1,0 +1,647 @@
+"Karl, S. M., G.A. Wandless, and A.M. Karpoff"	1992	"PROC ODP, SCI RESULTS"	1
+"Prytulak, J., J.D. Vervoort, T. Plank, and C. Yu"	2006	CHEMICAL GEOLOGY	2
+"Hemming, S. R., S.M. MecLennan"	2001	EARTH PLANET SCI LETT	3
+"Kyte, F. T., M. Leinen, G. Ross Heath, and Lei Zhou"	1993	GEOCHIM COSMOCHIM ACTA	4
+"Karpoff, A. M."	1990	"PROC ODP, SCI RESULTS"	5
+"Vlastelic, I., M. Carpentier, and E. Lewin"	2005	GEOCHEM GEOPHYS GEOSYST	7
+"Vroon, P. Z., M.J. van Bergen, G.J. Klaver, and W.M. White"	1995	GEOCHIM COSMOCHIM ACTA	8
+"Krissek, L. A., K.F. Scheidegger, and L.D. Kulm"	1980	GEOL SOC AMER BULL	9
+"Hauff, F., K. Hoernle, and A. Schmidt"	2003	GEOCHEM GEOPHYS GEOSYST	10
+"France-Lanord, C., A. Michard, and A.M. Karpoff"	1992	"PROC ODP, SCI RESULTS"	12
+"Ben Othman, D., W.M. White, and J. Patchett"	1989	EARTH PLANET SCI LETT	13
+"Kay, R. W. a. S. M. K."	1988	GEOCHIM COSMOCHIM ACTA	14
+"Pickering, K. T., N.G. Marsh, and B. Dickie"	1993	"PROC ODP, SCI RESULTS"	15
+"Borchers, S. L., B. Schnetger, P. Boening, and H.-J. Brumsack"	2005	GEOCHEM GEOPHYS GEOSYST	16
+"Plank, T. a. C. H. L."	1998	CHEMICAL GEOLOGY	17
+"Gill, J. B., R.N. Hiscott, Ph. Vidal"	1994	LITHOS	18
+"McLennan, S. M., S.R. Taylor, M.T. McCulloch, and J.B. Maynard"	1990	GEOCHIM COSMOCHIM ACTA	19
+"Chan, L.-H. a. M. K."	2000	EARTH PLANET SCI LETT	20
+"Meijer, A."	1976	GEOL SOC AMER BULL	21
+"Sano, T., T. Hasenaka, A.Shimaoka, C. Yonezawa, and T. Fukuoka"	2001	EARTH PLANET SCI LETT	22
+"Toyoda, K., Y. Nakamura, and A. Masuda"	1990	GEOCHIM COSMOCHIM ACTA	23
+"Stern, R. J., and E. Ito"	1983	J VOLCANOL GEOTHERM RES	24
+"Olivarez, A. M., R.M. Owen, and D.K. Rea"	1991	GEOCHIM COSMOCHIM ACTA	26
+"Pettke, T. a. A. N. H."	2002	PALEOCEANOGRAPHY	27
+"Schroeder, J. O., R. Murray, M. Leinen, R.C. Pflaum, and T.R. Janecek"	1997	PALEOCEANOGRAPHY	29
+"Chan, L.-H., W.P. Leeman, and T. Plank"	2006	GEOCHEM GEOPHYS GEOSYST	32
+"Stancin, A. M., J.D. Gleason, D.K. Rea, R.M. Owen, T.C. Moore Jr., J.D. Blum, and S.A. Hovan"	2006	EARTH PLANET SCI LETT	33
+"Pisias, N. G., and A.C. Mix"	1997	PALEOCEANOGRAPHY	34
+"Sadofsky, S. J., and G. E. Bebout"	2004	GEOCHEM GEOPHYS GEOSYST	35
+"Murray, R. M., M. Leinen, D.W. Murray, A.C. Mix, and C.W. Knowlton"	1995	GLOBAL BIOGEOCHEM CYCLES	36
+"Murray, R. M., and M. Leinen"	1996	GEOCHIM COSMOCHIM ACTA	37
+"Murray, R. M., and M. Leinen"	1993	GEOCHIM COSMOCHIM ACTA	38
+"Farrell, J. W., and W. L. Prell"	1989	PALEOCEANOGRAPHY	39
+"Elderfield, H., C.J. Hawkesworth, and M.J. Greaves"	1981	GEOCHIM COSMOCHIM ACTA	42
+"Spinelli, G. A., and M.B. Underwood"	2004	ISLAND ARC	43
+"Kopf, A., A. Deyhle, and E. Zuleger"	2000	MARINE GEOLOGY	44
+"Plank, T., V. Balzer, and M. Carr"	2002	GEOLOGY	45
+"Jung, H.-S., C-B Lee, K-S Jeong, and J-K Keuk"	1998	MARINE GEOLOGY	46
+"Li, L., and G.E. Bebout"	2005	J GEOPHYS RES	47
+"Clift, P. D., L-H Chan, J Blusztajnj, G.D. Layne, M. Kastner, and R.K. Kelley"	2005	GEOCHEM GEOPHYS GEOSYST	48
+"Kastner, M., Solomon E., Wei, W., Chan,  L-H., and Saether,  O.M."	2006	"PROC ODP, SCI RESULTS"	49
+"Chavagnac, V., L. Font, J. A. Milton, and I W. Croudace"	2006	"PROC ODP, SCI RESULTS"	52
+"Solomon, E. A., M. Kastner, and G. Robertson"	2006	"PROC ODP, SCI RESULTS"	53
+"Strasser, M., H. Weissert, and S. Bernascon"	2006	"PROC ODP, SCI RESULTS"	54
+"Westerhold, T., T. Bickert, and U. Roehl"	2005	PALAEO	55
+"Calvert, S. a. D. P."	1984	GEOCHIM COSMOCHIM ACTA	57
+"Kyte, F., and M. Vakulenko"	2001	"PROC ODP, SCI RESULTS"	58
+"Nunes, F., and R. Norris"	2005	"PROC ODP, SCI RESULTS"	59
+"Yamamoto, M."	2004	"PROC ODP, SCI RESULTS"	60
+"Mottl, M., C. Wheat, C. Monnin, and H. Elderfield"	2000	"PROC ODP, SCI RESULTS"	61
+"Li, L., and G. Bebout"	2006	"PROC ODP, SCI RESULTS"	62
+"McManus, J."	2006	"PROC ODP, SCI RESULTS"	63
+"Billups, K."	2002	PALAEO	64
+"Ando, A., H. Kawahata, and T. Kakegawa"	2006	SEDIMENTARY GEOLOGY	65
+"Frenz, M., H. R?∫diger, and  Zychla, B."	2006	MARINE GEOLOGY	66
+"Hoshiba, M., N. Ahagon, K. Ohkushi, M. Uchida, I. Motoyama, and A. Mishimura"	2006	MARINE MICROPALENTOLOGY	67
+"Nozaki, Y. a. Y. O."	1993	EARTH PLANET SCI LETT	68
+"Deyhle, A., A. Kopf, S. Frape, and R. Hesse"	2003	ISLAND ARC	69
+"Asahara, Y., T. Tanaka, H. Kamioka, A. Nishimura, and T. Yamazaki"	1999	CHEMICAL GEOLOGY	70
+"Patino, L., M Carr, M. Feigenson"	2000	CONTRIB MINERAL PETROL	71
+"Kimura, G., Silver, E. A.,  Blum, P. et al"	1997	"PROC ODP, INIT REPORTS"	72
+"Woodhead, J. D."	1989	CHEMICAL GEOLOGY	73
+"Karpoff, A., France-Lanord, C., Lothe, F., and Karcher, P."	1992	"PROC ODP, SCI RESULTS"	74
+"Barrett, T., P. Taylor, and J. Lugowsk"	1987	GEOCHIM COSMOCHIM ACTA	75
+"Lyle, M."	1985	INIT REP DSDP	76
+"Lea, D., P. Martin, D. Pak, and H. Spero"	2002	QUATERNARY SCIENCE REVIEWS	77
+"Spero, H., and D. Lea"	2002	SCIENCE	79
+"Ziegler, C., R.W. Murray,  S. A. Hovan, and D. Rea"	2007	EARTH PLANET SCI LETT	80
+"Stott, l. D., M. Neuman, and D. Hammond"	2000	PALEOCEANOGRAPHY	82
+"Patrick, A., and R.C. Thunell"	1997	PALEOCEANOGRAPHY	84
+"Shackleton, N. a. M. A. H."	1995	"PROC ODP, SCI RESULTS"	86
+"Wade, B., W. Berggren, and  R. Olsson"	2007	MARINE MICROPALENTOLOGY	87
+"Leggett, J. K."	1982	INIT REP DSDP	88
+"Ravelo, A. C., and N. Shackleton"	1995	"PROC ODP, SCI RESULTS"	89
+"Bayon, G., C. German, K. Burton, R. Nesbitt, and N. Rogers"	2004	EARTH PLANET SCI LETT	92
+"Ruhlin, D. E., and R.M. Owen"	1986	INIT REP DSDP	93
+"Malone, M. J., P. A. Baker, S.J. Burns, and P.K. Swart"	1990	"PROC ODP, SCI RESULTS"	94
+"Vervoort, J. D., P.J. Patchett, J. Bilchert-Toft, and F. Albarede"	1999	EARTH PLANET SCI LETT	95
+"Nakai, S., A. N. Halliday, and D.K. Rea"	1993	EARTH PLANET SCI LETT	96
+"Blanc, G."	1994	"PROC ODP, SCI RESULTS"	97
+"Walter, H. J., E. Hegner, B. Diekman, G. Kuhn, and M.M. Rutgers Van Der Loeff"	2000	GEOCHIM COSMOCHIM ACTA	98
+"Baker, P. A., M.J. Malone, S.J. Burns, and P.K. Swart"	1990	"PROC ODP, SCI RESULTS"	99
+"Liu, Y.-G., and R.A. Schmitt"	1990	"PROC ODP, SCI RESULTS"	100
+"Colin, C., L. Turpin, J. Bertaux, A. Desprairies, and C. Kissel"	1999	EARTH PLANET SCI LETT	101
+"White, W., B. Dupre, and P. Vidal"	1985	GEOCHIM COSMOCHIM ACTA	102
+"Grousset, F. E., P.E. Biscaye, A. Zindler, J. Prospero, and R. Chester"	1998	EARTH PLANET SCI LETT	103
+"Stoll, H., D. Vance, and A. Arevalos"	2007	EARTH PLANET SCI LETT	104
+"Innocent, C., N. Fagel, R.K. Stevenson, C. Hillaire-Marcel"	1997	EARTH PLANET SCI LETT	105
+"Helm, R."	1985	INIT REP DSDP	106
+"Ravizza, G."	2007	EARTH PLANET SCI LETT	107
+"Lang Farmer, G., D. Barber, and J. Andrews"	2003	EARTH PLANET SCI LETT	108
+"Haggerty, J. A. a. S. C."	1992	"PROC ODP, SCI RESULTS"	109
+"Rigsby, C. A."	1992	"PROC ODP, SCI RESULTS"	110
+"McGee, D., F. Marcantonio, and J. Lynch-Stieglitz"	2007	EARTH PLANET SCI LETT	111
+"Malone, M. J."	2005	"PROC ODP, SCI RESULTS"	113
+"Wade, B. S., and H. Paelike"	2005	"PROC ODP, SCI RESULTS"	114
+"Tripati, A., H. Elderfield, L. Booth, J. Zachos, and P. Ferretti"	2006	"PROC ODP, SCI RESULTS"	115
+"Averyt, K., M. Calhoun, L. Schmalz, and A. Paytan"	2005	"PROC ODP, SCI RESULTS"	116
+"Arculus, R. J., and A.L. Bloomfield"	1992	"PROC ODP, SCI RESULTS"	117
+"Dutton, A., K.C. Lohmann, and R.M. Leckie"	2005	"PROC ODP, SCI RESULTS"	118
+"Barrett, T. J., and I. Jarvis"	1988	CHEMICAL GEOLOGY	121
+"Erbacher, J., O. Friedrich, P.A. Wilson, H. Birch, and J. Mutterlose"	2005	GEOCHEM GEOPHYS GEOSYST	122
+"Meyers, P. A., S.M. Bernasconi, and A. Foster"	2006	ORGANIC GEOCHEMISTRY	123
+"McDermott, F., and C. Hawkesworth"	1991	EARTH PLANET SCI LETT	124
+"Forster, A., S. Schouten, K. Moriya, P.A. Wilson, and J.S. Sinninghe Damste"	2007	PALEOCEANOGRAPHY	125
+"Hyeong, K. m. S.-H. P., C.M. Yoo, and K-H Kim"	2005	PALEOCEANOGRAPHY	126
+"Cheng, X., J. Tian, and P. Wang"	2004	"PROC ODP, SCI RESULTS"	128
+"Wang, L.-W., and H-L Lin"	2004	"PROC ODP, SCI RESULTS"	129
+"MacLeod, K. G."	2006	"PROC ODP, SCI RESULTS"	130
+"MacLeod K.G., a. J. A. B."	2004	"PROC ODP, SCI RESULTS"	131
+"Plank, T., K. A. Kelley, R.W. Murray, and L.Q. Stern"	2007	GEOCHEM GEOPHYS GEOSYST	132
+"Hoffman, S., and J. McManus"	2007	EARTH PLANET SCI LETT	136
+"Wehausen, R., J. Tian, H-J. Brumsack, X. Cheng, and P. Wang"	2003	"PROC ODP, SCI RESULTS"	137
+"Sano, T., H. Naruse, T. Hasenaka and T. Fukuoka"	2004	"PROC ODP, SCI RESULTS"	138
+"Bouman, C., T. Elliot, and P.Z. Vroon"	2004	CHEMICAL GEOLOGY	139
+"Chun, J.-H., D. Cheong, K. Ikehara, and S-J Han"	2007	PALAEO	140
+"Harrison, W., R. Hesse, and J. Gieskes"	1982	INIT REP DSDP	141
+"Ziegler, C. L., and R.W. Murray"	2007	PALEOCEANOGRAPHY	142
+"Boening, P., H-J Brumsack, M. Boettcher, B. Schnetger, C. Kriete, J. Kallmeyer, and S. Borchers"	2004	GEOCHIM COSMOCHIM ACTA	143
+"Fantle, M. S., and D. J. DePaolo"	2007	GEOCHIM COSMOCHIM ACTA	144
+"Hemming, S. R., T. van de Flierdt, S.L. Goldstein, A.M. Franzese, M.Roy, G. Gastineau, and G. Landrot"	2007	GEOCHEM GEOPHYS GEOSYST	145
+"Fryer, P. P.-J.-A. S.-L.-B. A.-J.-R. A.-R. B.-D.-L. B.-M.-M. C.-G. H.-J.-A. H.-R.-B."	1990	"PROC ODP, INIT REPORTS"	147
+"Fryer, P. P.-J.-A. S.-L.-B. A.-J.-R. A.-R. B.-D.-L. B.-M.-M. C.-G. H.-J.-A. H.-R.-B."	1990	"PROC ODP, INIT REPORTS"	148
+"Fryer, P. P.-J.-A. S.-L.-B. A.-J.-R. A.-R. B.-D.-L. B.-M.-M. C.-G. H.-J.-A. H.-R.-B."	1990	"PROC ODP, INIT REPORTS"	150
+"Fryer, P. P.-J.-A. S.-L.-B. A.-J.-R. A.-R. B.-D.-L. B.-M.-M. C.-G. H.-J.-A. H.-R.-B."	1990	"PROC ODP, INIT REPORTS"	151
+"Fryer, P. P.-J.-A. S.-L.-B. A.-J.-R. A.-R. B.-D.-L. B.-M.-M. C.-G. H.-J.-A. H.-R.-B."	1990	"PROC ODP, INIT REPORTS"	152
+"Fryer, P. P.-J.-A. S.-L.-B. A.-J.-R. A.-R. B.-D.-L. B.-M.-M. C.-G. H.-J.-A. H.-R.-B."	1990	"PROC ODP, INIT REPORTS"	153
+"Nishimura, A., N. Mita, and M. Nohara"	1992	"PROC ODP, INIT REPORTS"	154
+"Presley, B. J., R.R. Sima, and S.E. Feagley"	1973	INIT REP DSDP	155
+"Bode, G. W."	1973	INIT REP DSDP	156
+"Jones, E. J. W."	1973	INIT REP DSDP	157
+"Mottl, M., and J.C. Alt"	1992	"PROC ODP, SCI RESULTS"	158
+"Heling, D., A. Schwarz, and Garbe-Schoenberg"	1992	"PROC ODP, SCI RESULTS"	159
+"Hiscott, R. N., a nd J.B. Gill"	1992	"PROC ODP, SCI RESULTS"	160
+"Egeberg, P. K., A.O. Brunfelt, and A. S. Stabel"	1992	"PROC ODP, SCI RESULTS"	161
+"Ludden, J. P., T; Guerin, G; Haveman, S; Hirono, T; Honnorez, J; Kelley, K; Larson, R; Lozar, F; Murray, R; Pietsch, T; Pockalny, R; Escutia, C; Rouxel, O; Schmidt, A; Smith, D; Spivack, A; Staudigel, H; Steiner, M; Valentine, R; ABRAMS, L; Alt, J; Armstrong, R; Barr, S; Bartolini, A; Cairns, G; Fisk, M "	2000	"PROC ODP, INIT REPORTS"	162
+"Mayer, L. P., N; Hagelberg, T; Holler, P; Hovan, S; Iwai, M; Kemp, A; Kim, D; Klinkhammer, G; Leinen, M; Levi, S; Levitan, M; Janecek, T; Lyle, M; Mackillop, A; Meynadier, L; Mix, A; Moore, T; Raffi, I; Ravelo, C; Schneider, D; Shackleton, N; Valet, J; Baldauf, J; Vincent, E; Bloomer, S; Dadey, K; Emeis, K; Farrell, J; Flores, J; Galimov, E "	1992	"PROC ODP, INIT REPORTS"	162
+"Kimura-Gaku, S.-E. B.-P. B.-G. B.-A. C.-M.-B. G.-J.-R. H.-B. I.-M. K.-T. K.-M. L.-G.-."	1997	"PROC ODP, INIT REPORTS"	164
+"Kimura-Gaku, S.-E. B.-P. B.-G. B.-A. C.-M.-B. G.-J.-R. H.-B. I.-M. K.-T. K.-M. L.-G.-."	1997	"PROC ODP, INIT REPORTS"	165
+"Kimura-Gaku, S.-E. B.-P. B.-G. B.-A. C.-M.-B. G.-J.-R. H.-B. I.-M. K.-T. K.-M. L.-G.-."	1997	"PROC ODP, INIT REPORTS"	166
+"Kimura-Gaku, S.-E. B.-P. B.-G. B.-A. C.-M.-B. G.-J.-R. H.-B. I.-M. K.-T. K.-M. L.-G.-."	1997	"PROC ODP, INIT REPORTS"	167
+"D-Hondt, S.-L. J.-B.-B. M.-D.-J. A.-I.-W. B.-B. B.-R. C.-B.-A. C.-H. D.-G.-R. F.-T."	2002	"PROC ODP, INIT REPORTS"	168
+"D-Hondt, S.-L. J.-B.-B. M.-D.-J. A.-I.-W. B.-B. B.-R. C.-B.-A. C.-H. D.-G.-R. F.-T."	2002	"PROC ODP, INIT REPORTS"	169
+"D-Hondt, S.-L. J.-B.-B. M.-D.-J. A.-I.-W. B.-B. B.-R. C.-B.-A. C.-H. D.-G.-R. F.-T."	2002	"PROC ODP, INIT REPORTS"	170
+"D-Hondt, S.-L. J.-B.-B. M.-D.-J. A.-I.-W. B.-B. B.-R. C.-B.-A. C.-H. D.-G.-R. F.-T."	2002	"PROC ODP, INIT REPORTS"	171
+"D-Hondt, S.-L. J.-B.-B. M.-D.-J. A.-I.-W. B.-B. B.-R. C.-B.-A. C.-H. D.-G.-R. F.-T."	2002	"PROC ODP, INIT REPORTS"	172
+"D-Hondt, S.-L. J.-B.-B. M.-D.-J. A.-I.-W. B.-B. B.-R. C.-B.-A. C.-H. D.-G.-R. F.-T."	2002	"PROC ODP, INIT REPORTS"	173
+"Reynolds, B. C., M. Frank, and R.K. OÇƒÙNions"	1999	EARTH PLANET SCI LETT	173
+"D-Hondt, S.-L. J.-B.-B. M.-D.-J. A.-I.-W. B.-B. B.-R. C.-B.-A. C.-H. D.-G.-R. F.-T."	2002	"PROC ODP, INIT REPORTS"	174
+"Tiedemann, R. M.-A.-C. B.-P. A.-F.-F. B.-H. C.-L.-I. C.-M.-T. D.-M.-L. F.-J.-A. G.-L."	2003	"PROC ODP, INIT REPORTS"	175
+"Party, S. S."	2003	"PROC ODP, INIT REPORTS"	176
+"van de Flierdt, T., S.L. Goldstein, S.R. Hemming, M.Roy, M. Frank, and A.N. Halliday"	2007	EARTH PLANET SCI LETT	177
+"Taylor, B. F.-K. J.-T.-R. A.-J. C.-S. C.-A. C.-P.-A. D.-K.-A. E.-P.-K. F.-J.-V. G.-."	1990	"PROC ODP, INIT REPORTS"	178
+"Ando, A., K. Kaiho, H. Kawahata, and T. Kakegawa"	2008	PALAEO	179
+"Bralower. T., P. F., T. McCay, K. MacLeod. J. Bergen, and E. Zapata"	2004	"PROC ODP, SCI RESULTS"	180
+"Bostrom, K., and M.N.A. Peterson"	1969	MARINE GEOLOGY	181
+"Calvert, S., D. Piper, and P. Baedecker"	1987	GEOCHIM COSMOCHIM ACTA	182
+"van de Flierdt, T., M. Frank, D-C Lee, A. N. Halliday, B.C. Reynolds, and J.R. Hein"	2004	GEOCHIM COSMOCHIM ACTA	184
+"David, K., M. Frank, R.K. OÇƒÙNions, N.S. Belshaw, abd J.W. Arden"	2001	CHEMICAL GEOLOGY	185
+"Gamo, T., M. Kastner, U. Berner, and J. Gieskes"	1993	"PROC ODP, SCI RESULTS"	186
+"Chavagnac, V., C.R. German, and R.N. Taylor"	2008	J GEOPHYS RES	187
+"Gourlan, A. T., L. Meynadier,and C.J. Allegre"	2008	EARTH PLANET SCI LETT	188
+"Ahmad, S. M., A. A. Babu, V.M. Padmakumarim and W. Raza"	2008	PALAEO	189
+"Gutjahr, M., M. Frank, C.H. Stirling, L.D. Keigwin, and A.N. Halliday"	2008	EARTH PLANET SCI LETT	190
+"Howe, J. A., C.R. Wilson, T.M. Shimmield, R.J. Diaz, and L.W. Carpenter"	2008	DEEP SEA RESEARCH	191
+"Gupta, A. K., M. Das, and K. Bhaskar"	2006	J ASIAN EARTH SCI	192
+"Innocent, C., N. Fagel, C. Hallaire-Marcel"	2000	MARINE GEOLOGY	193
+"Plank, T., and J.N. Ludden"	1992	"PROC ODP, SCI RESULTS"	195
+"Mutterlose, J., C. Linnert, and R. Norris"	2007	MARINE MICROPALENTOLOGY	196
+"Mahiques, M., C. Tassinari, S. Marcolini, R. Violante, R. Figueira, I. Silviera, L. Burone, and S. Sousa"	2008	MARINE GEOLOGY	197
+"von Blanckenberg, F., R.K. OÇƒÙNions, and J.R. Hein"	1996	GEOCHIM COSMOCHIM ACTA	198
+"Walter, H. J., M.M. Rutgers van der Loeff, and H. Hoeltzen"	1997	EARTH PLANET SCI LETT	199
+"von Blanckenburg, F., R.K. OÇƒÙNions, N.S. Belshaw, A. Gibb, and J.R. Hein"	1996	EARTH PLANET SCI LETT	200
+"Frank, M., and R.K. OÇƒÙNions"	1998	EARTH PLANET SCI LETT	201
+"OÇƒÙNions, R. K., M. Frank, F. von Blanckenburg, and H-F. Ling"	1998	EARTH PLANET SCI LETT	202
+"Billups, K., C. Lindley, J. Fisler, and P. Martin"	2006	GLOBAL AND PLANETARY CHANGE	203
+"Stancin, A., J. Gleason, R. Owen, D. Rea, and J. Blum"	2008	PALEOCEANOGRAPHY	204
+"Stancin, A. J. G., S. Hovan, D. Rea, R. Owen, T. Moore, C. Hall, and J. Blum"	2008	PALAEO	205
+"Billups, K., C. Kelly, and E. Pierce"	2008	PALAEO	206
+"Banakar, V. K., A. Galy, N.P. Sukumaram, G. Parthiban, and A.Y. Volvaiker"	2003	EARTH PLANET SCI LETT	207
+"Burton, K. W., H-F Ling and K. OÇƒÙNions"	1997	NATURE	208
+"Ling, H. F., K.W. Burton, R.K. OÇƒÙNions, B.S. Kamber, F. von Blanckenburg, A.J. Gibb, and J.R. Hein"	1997	EARTH PLANET SCI LETT	210
+"Friedrich, G., and A. Schmitz-Weichowski"	1980	MARINE GEOLOGY	211
+"Basu, S., F.M. Stuart, V. KLemm, G. Korschinek, K. Knie, and J.R Hein"	2006	GEOCHIM COSMOCHIM ACTA	212
+"Frank, M., H. Marbler, A. Koschinksy, T vane der Flierdt, V. Klemm, M. Gutjahr, A. Halliday, P. Kubik, and P. Halbach"	2006	GEOCHEM GEOPHYS GEOSYST	213
+"Pattan, J. N., nad G. Parthiban"	2007	J ASIAN EARTH SCI	214
+"Klemm, V., M. Frank, S. Levasseaur, A.N. Halliday, and J.R. Hein"	2008	EARTH PLANET SCI LETT	215
+"Abouchami, W., S. J.G. Galer, AND A. Koschinsky"	1999	GEOCHIM COSMOCHIM ACTA	216
+"Burton, K. W., Lee, D., Christensen, J., A. Halliday and J.R. Hein"	1999	EARTH PLANET SCI LETT	218
+"Oppo, D. W., Raymo, M., G. Lohmann, A. Mix, J. Wright, and W.L. Prell"	1995	PALEOCEANOGRAPHY	219
+"Vance, D., and K. Burton"	1999	EARTH PLANET SCI LETT	220
+"von Blanckenburg, F. a. R. K. O. N."	1999	EARTH PLANET SCI LETT	221
+"Carpentier, M., C. Chauvel, and N. Mattielli"	2008	EARTH PLANET SCI LETT	222
+"Chabaux, F. R. K. O. N., A.S. Cohen, and J.R. Hein"	1997	GEOCHIM COSMOCHIM ACTA	223
+"Schroeder, J. O., R. Murray, M. Leinen, R.C. Pflaum, and T.R. Janecek"	1995	"UNPUB M.SC. THESIS, BU"	224
+"Piotrowski, A. M. G. S. L. H. S. R. F. R. G. D. R. Z."	2008	EARTH PLANET SCI LETT	225
+"Thomas, D. J., and Bralwoer, T.J."	2005	MARINE GEOLOGY	226
+"Robertson, A."	2007	"PROC ODP, SCI RESULTS"	227
+"Arnaboldi, M. a. P. A. M."	2007	"PROC ODP, SCI RESULTS"	228
+"Flower, B."	1998	"PROC ODP, SCI RESULTS"	229
+"Saito, S."	1998	"PROC ODP, SCI RESULTS"	230
+"Hyun, S., J. D. Ortzi, M.E. Raymo, and A. Taira"	1999	"PROC ODP, SCI RESULTS"	232
+"Eystein Jansen, M. E. R., Peter Blum, : Espen S. Andersen, William E.N. Austin, Karl-Heinz Baumann, Viviane Bout-Roumazeilles, : Susan J. Carter, James E.T. Channell, James L. Cullen, Benjamin Flower, Sean Higgins, : David A. Hodell, Julie A. Hood, Sang Min Hyun, Minoru Ikehara, Teresa King, Rober Larter, : Benoit Lehman, Sigurd Locker, Katherine Mclntyre, Jerry McManus, Lisa B. Meng, : Suzanne 0'Connell, Joseph D. Ortiz, Frank R. Rack, Anders Solheim, Wuchang Wei"	1996	"PROC ODP, INIT REPORTS"	233
+"Gieskes, J., D. Schrag, L. Chan, L. Zhang, and R. Murray"	1998	"PROC ODP, SCI RESULTS"	234
+"Flower, B. P."	1996	"PROC ODP, SCI RESULTS"	235
+"Jansen, E., Slettemark, B., Bleil, U., Henrich, R., Kringstad, L, and Rolfsen, S."	1989	"PROC ODP, SCI RESULTS"	236
+"Eldholm, O., Thiede, J., Taylor Elliott, Barton, C., Bjorklund K., Bleil U., Ciesielski Paul; Desprairies, A., Donnally, D., Froget, C., Goll, R., Henrich, R.,Jansen, E., Krissek, L., Kvenvolden, K.,; LeHuray, A., ; Love, D., Lysne, P., McDonald, T., Mudie, P., Osterman, L., Parson, L., Phillips, J., Pittenger, A., Qvale, G., Schoenharting, G., Viereck, L. "	1987	"PROC ODP, INIT REPORTS"	237
+"Eldholm, O., Thiede, J., Taylor Elliott, Barton, C., Bjorklund K., Bleil U., Ciesielski Paul; Desprairies, A., Donnally, D., Froget, C., Goll, R., Henrich, R.,Jansen, E., Krissek, L., Kvenvolden, K.,; LeHuray, A., ; Love, D., Lysne, P., McDonald, T., Mudie, P., Osterman, L., Parson, L., Phillips, J., Pittenger, A., Qvale, G., Schoenharting, G., Viereck, L. "	1987	"PROC ODP, INIT REPORTS"	238
+"Oba, T. S., A., and Okada, H."	2000	"PROC ODP, SCI RESULTS"	239
+"Keigwin, J."	2001	"PROC ODP, SCI RESULTS"	240
+"Ito, T., Yamaguchi, K., Komura, K., and Ogawa, Y."	1997	"PROC ODP, SCI RESULTS"	241
+"Wade, B., Norris, R. , and Kroon, D."	2001	"PROC ODP, SCI RESULTS"	242
+"Dick Kroon, R. D. N., Adam Klaus,: Ian T. Alexander, Leon Paul Bardot, Charles E. Barker, Jean-Pierre Bellier,: Charles D. Blome, Leon J. Clarke, Jochen Erbacher, Kristina L. Faul, Mary Anne Holmes,: Brian T. Huber, Miriam E. Katz, Kenneth G. MacLeod, Sandra Marca, Francisca C. Martinez-Ruiz,: Isao Mita, Mutsumi Nakai, James G. Ogg, Dorothy K. Pak, Thomas K. Pletsch, Jean M. Self-Trail,: Nicholas J. Shackleton, Jan Smit, William Ussler III, David K. Watkins,: Joen Widmark, Paul A. Wilson"	1998	"PROC ODP, INIT REPORTS"	243
+"Dick Kroon, R. D. N., Adam Klaus,: Ian T. Alexander, Leon Paul Bardot, Charles E. Barker, Jean-Pierre Bellier,: Charles D. Blome, Leon J. Clarke, Jochen Erbacher, Kristina L. Faul, Mary Anne Holmes,: Brian T. Huber, Miriam E. Katz, Kenneth G. MacLeod, Sandra Marca, Francisca C. Martinez-Ruiz,: Isao Mita, Mutsumi Nakai, James G. Ogg, Dorothy K. Pak, Thomas K. Pletsch, Jean M. Self-Trail,: Nicholas J. Shackleton, Jan Smit, William Ussler III, David K. Watkins,: Joen Widmark, Paul A. Wilson"	1998	"PROC ODP, INIT REPORTS"	244
+"Dick Kroon, R. D. N., Adam Klaus,: Ian T. Alexander, Leon Paul Bardot, Charles E. Barker, Jean-Pierre Bellier,: Charles D. Blome, Leon J. Clarke, Jochen Erbacher, Kristina L. Faul, Mary Anne Holmes,: Brian T. Huber, Miriam E. Katz, Kenneth G. MacLeod, Sandra Marca, Francisca C. Martinez-Ruiz,: Isao Mita, Mutsumi Nakai, James G. Ogg, Dorothy K. Pak, Thomas K. Pletsch, Jean M. Self-Trail,: Nicholas J. Shackleton, Jan Smit, William Ussler III, David K. Watkins,: Joen Widmark, Paul A. Wilson"	1998	"PROC ODP, INIT REPORTS"	245
+"Dick Kroon, R. D. N., Adam Klaus,: Ian T. Alexander, Leon Paul Bardot, Charles E. Barker, Jean-Pierre Bellier,: Charles D. Blome, Leon J. Clarke, Jochen Erbacher, Kristina L. Faul, Mary Anne Holmes,: Brian T. Huber, Miriam E. Katz, Kenneth G. MacLeod, Sandra Marca, Francisca C. Martinez-Ruiz,: Isao Mita, Mutsumi Nakai, James G. Ogg, Dorothy K. Pak, Thomas K. Pletsch, Jean M. Self-Trail,: Nicholas J. Shackleton, Jan Smit, William Ussler III, David K. Watkins,: Joen Widmark, Paul A. Wilson"	1998	"PROC ODP, INIT REPORTS"	246
+"Ussler, W. P., C.,a nd Fullagar, P."	2000	"PROC ODP, SCI RESULTS"	247
+"Speed, C. D., and D. Kroon"	2001	"PROC ODP, SCI RESULTS"	248
+"Keigwin, L. D. R. D. A. G. D. B. G. G. B. W. C. N. C. W. P. C. B. M. C. E. D. G. B."	1998	"PROC ODP, INIT REPORTS"	249
+"Keigwin, L. D. R. D. A. G. D. B. G. G. B. W. C. N. C. W. P. C. B. M. C. E. D. G. B."	1998	"PROC ODP, INIT REPORTS"	250
+"Keigwin, L. D. R. D. A. G. D. B. G. G. B. W. C. N. C. W. P. C. B. M. C. E. D. G. B."	1998	"PROC ODP, INIT REPORTS"	251
+"Chavagnac, V., Lair M., Milton A., Lloyd A., Croudace I.,  Palmer M., Green D., Cherkashev G."	2008:00:00	MARINE GEOLOGY	253
+"Keigwin, L. D. R. D. A. G. D. B. G. G. B. W. C. N. C. W. P. C. B. M. C. E. D. G. B."	1998	"PROC ODP, INIT REPORTS"	254
+"Hodell, D. A., and Curtis, J.H."	2008	MARINE GEOLOGY	255
+"Depaolo, D., K. Maher, J. Christensen, and J. McManus"	2006	EARTH PLANET SCI LETT	256
+"Nyland, B., E. Jansen, H. Elderfield, and C. Anderson"	2006	GEOCHEM GEOPHYS GEOSYST	257
+"Lu, H., Matsumoto, R., and Wantanabe, Y."	2000	"PROC ODP, SCI RESULTS"	258
+"Wantanabe, Y., Matsumoto, R., and Lu, H."	2000	"PROC ODP, SCI RESULTS"	259
+"Bayon, G., Burton, K., Soulet, G., Vigier, N., Dennielou, B., Etoubleau, Ponzevera, E., German, C., and Nesbitt, R."	2009	EARTH PLANET SCI LETT	260
+"Zhang, L., Chan, L-H, and Gieskes, J"	1998	GEOCHIM COSMOCHIM ACTA	261
+"Sato, K., Motoyoshi, O., Chiyonobu, S, Kimoto, K., Domistsu, H., and Ingle J."	2008	PALAEO	262
+"Bornemann, A. a. N., R."	2007	MARINE MICROPALENTOLOGY	263
+"Niemitz, J."	1982	INIT REP DSDP	264
+"Gieskes, J. M., Elderfield, H., J.R. Lawrence, J. Johnson, B. Meyers, and A. Campbell"	1982	INIT REP DSDP	265
+"Shackleton, N. J."	1982	INIT REP DSDP	266
+"Daessle, L. W., Ramos, S.E., Carriquiru, J.D., and Camacho-Ibdar, V.F."	2002	CONTINENTAL SHELF RESEARCH	267
+"McManus, J., Berelson, W., Severmann, S., Poulson, R., Hammond, D., Klinkhammer, G., Holm C."	2006	GEOCHIM COSMOCHIM ACTA	268
+"Jahnke, R., Heggie, D. Emerson, S., and Grundmanis, V."	1982	EARTH PLANET SCI LETT	269
+"Veeh, H. H., McCorkle, D., and Heggie, D.T."	2000	MARINE GEOLOGY	270
+"Peate, D., Falkena, L., and Kent, A."	2009	CHEMICAL GEOLOGY	271
+"Cole, J., Goldstein, S., deMenocal, P., Hemming, S., and Grousset, F."	2009	EARTH PLANET SCI LETT	272
+"Tada, R., and Iijima, A."	1992	"PROC ODP, SCI RESULTS"	273
+"Matsumoto, R."	1992	"PROC ODP, SCI RESULTS"	274
+"Lichtfouse, E., Littke, R., Disko, U. Willsch, H., Rullkoetter, J., and Stein R."	1992	"PROC ODP, SCI RESULTS"	275
+"Murray, R., Buchholtz Ten Brink, M., Brumsac, H-J., Gerlach, D., and Price Russ III, G"	1992	"PROC ODP, SCI RESULTS"	276
+"von Breymann, M., Brumsack, H., and Emeis, K."	1992	"PROC ODP, SCI RESULTS"	277
+"Masuzawa, T., Takada, J., and Matsushita, R."	1992	"PROC ODP, SCI RESULTS"	278
+"Minai, Y., Matsumoto, R., Wantanabe, Y., and Tominaga, T."	1992	"PROC ODP, SCI RESULTS"	279
+"Chauvel, C., Marini, J-C, Plank, T., and Ludden, J."	2009	GEOCHEM GEOPHYS GEOSYST	281
+"Klinkhammer, G. P., A.C. Mix, and B.A. Haley"	2009	GEOCHEM GEOPHYS GEOSYST	282
+"Khim, B. K., Y.H. Park, J.J. Bahk, J.H. Jin, and G.H. Lee"	2008	QUATERNARY INTERNATIONAL	283
+"Scholten, J. C., J. Fietzke, A. Mangini, C.-D. Garbe Scheonberg, A. Eisenhauer, P. Schneider, and P. Stoffers"	2008	EARTH PLANET SCI LETT	284
+"Xiang, R., Yang, Z., Saito, Y., Fan, D., Chen, M., Guo, Z., and Chen, Z."	2008	MARINE MICROPALENTOLOGY	286
+"Nathan, S. A., and Leckie, R.M."	2009	PALAEO	287
+"Pierson-Wickmann, A.-C. R. L. F.-L. C. K. H. R."	2001	PALEOCEANOGRAPHY	288
+"Kessarkar, P. M., Purnachandra Rao, V., Ahmad, S.M., Patil, S.K, Anil Kumar, A., Anil ABbu, G., Chakraborty, S., Rjan, R."	2005	DEEP SEA RESEARCH	289
+"Derry, L., and France-Lanord, C."	1996	EARTH PLANET SCI LETT	290
+"Galy, A., France-Lanord, C., and Derry. L."	1996	TECTONOPHYSICS	291
+"Liang, M. G., Z., Kahmann, A., and Oldfield, F."	2009	GEOCHEM GEOPHYS GEOSYST	292
+"Clague, D., Paduan, J., and Davis A."	2009	J VOLCANOL GEOTHERM RES	293
+"Loubere, P., and Bennett, S"	2008	GLOBAL AND PLANETARY CHANGE	294
+"Liu, Z., Altabet, M., and Herbert T."	2008	GEOCHEM GEOPHYS GEOSYST	295
+"Hodell, D., Mueller, P, and Garrido, J."	1991	GEOL SOC SPEC PUBL	296
+"Muhammad, Z., Bentley, S., Febo, L., Droxler, A., Dickens, G, Peterson, L., Opdyke, B."	2008	J GEOPHYS RES	298
+"Chen, J., Li, G., Yang, J., Rao, W., Lu, H., Balsam, W., Sun, Y., and Ji, J."	2007	GEOCHIM COSMOCHIM ACTA	299
+"Robinson, N., Ravizza, G., Coccioni, R., Peucker-Eurbrink, B., Norris, R."	2009	EARTH PLANET SCI LETT	300
+"Ravizza, G., and Peucker-Ehrenbrink, B."	2003	SCIENCE	301
+"Martinez, N., Murray, R., Dickens, G., and Koelling, M."	2009	PALEOCEANOGRAPHY	302
+"Stein, M., Almogi-Labin, A., Goldstein, S.L., Hemleben, C., Starinsky, A."	2007	EARTH PLANET SCI LETT	303
+"Sugden, D., McCulloch, R., Bory, A., and Hein, A."	2009	NATURE GEOSCIENCE	304
+"Backman, J., Moran, K., McInroy, D, Mayer, L. and the Expedition 302 Scientists"	2009	PROC IODP	305
+"Gherardi J-M, L., L., Nve, S., Francois,R., McManus, J, and E. Cortijo"	2009	PALEOCEANOGRAPHY	306
+"Meland, M., Janse, E., Elderfield, H., Dokken, T., Olsen, A., and Bellerby, R"	2006	GEOCHEM GEOPHYS GEOSYST	307
+"Farley, K. A."	1995	NATURE	308
+"Pettke, T., Halliday, A. Hal, C., and Rea, D."	2000	EARTH PLANET SCI LETT	309
+"Zuraida, R., Holbourn, A., Nurenberg, D., Kuhnt, W., Duerkop, A., and Erichsen, A."	2009	PALEOCEANOGRAPHY	310
+"Ling, H.-F., Jiangm S-Y, Frank. M., Zhou, H-Y., Zhou, F., Lu, Z-L., Chen, X-M., Jiang, Y-H, and Ge, C-D"	2005	EARTH PLANET SCI LETT	311
+"Roy, M., van der Flierdt, T., Hemming, S., and Goldstein, S.L."	2007	CHEMICAL GEOLOGY	312
+"Lee, K. E."	2007	PALAEO	313
+"Klevenz, V., Vance, D., Schmidt, D., and Mezger, K."	2008	EARTH PLANET SCI LETT	314
+"Haley, B. A., , Frank, M., Spielhagen, R.F., and Fietzke, J."	2008	PALEOCEANOGRAPHY	315
+"Frank, M., Backman, J., Jakobsson, M., Moran, k., OÇƒÙReagan, M., King, J., Haley, B., Kubik, P., Garbe-Schoenberg, D."	2008	PALEOCEANOGRAPHY	316
+"Singh, S., Rai, S., and Krishnaswami, S."	2008	J GEOPHYS RES	317
+"Friedrich, O., Herrle, J., Wilson, P., Cooper, M., Erbacher, J, and Hemblen, C."	2009	PALEOCEANOGRAPHY	318
+"Mukhopadhyay, S., and K.A. Farley"	2006	GEOCHIM COSMOCHIM ACTA	319
+"Pegram, W. J., and Turekian, K. K"	1999	GEOCHIM COSMOCHIM ACTA	320
+"Pegram, W. J. K. S., Ravizza, G.,  Turekian, K."	1992	EARTH PLANET SCI LETT	321
+"Godfrey, L. V."	2002	CHEMICAL GEOLOGY	322
+"Janecek, T. R., and Rea, D.K"	1983	GEOL SOC AMER BULL	323
+"Pettke, T., Lee, D-C, Halliday, A.N., and Rea, D.K."	2002	EARTH PLANET SCI LETT	324
+"Leinen, M., and Heath, G.R."	1981	PALAEO	326
+"Gleason, J., Moore, T., Rea, D., Johnson, T., Owen, R., Blum, J. Hovan, S. Jones, C"	2002	EARTH PLANET SCI LETT	327
+"Anderson, R. F., Fleischer, M.Q., Lao, Y, and Winckler, G."	2008	MARINE CHEMISTRY	328
+"Marcantonio, F., Kumar, N, Stute, M., Anderson, R., Seidl, M., Schlosser, P. and Mix A."	1995	EARTH PLANET SCI LETT	329
+"Winckler, G., Anderson, R., Fleischer, M., McGee, D., and Mahowald, N."	2008	SCIENCE	330
+"Murray, R., Knowlton, C, Leinen, M., Mix, A., and Polsky, C"	2000	PALEOCEANOGRAPHY	331
+"Hoenisch, B., Hemming, N., Archer, D. Siddall. M. and McManus, J."	2009	SCIENCE	332
+"Murray, R., Knowlton, C., Leinen, M, Mix, A., and Polsky, C."	2000	GLOBAL AND PLANETARY CHANGE	333
+"Paytan, A. K., M., Campbell, D, and Theimans, M"	1998	SCIENCE	334
+"Bartoli, G., Sarnthein, M., Weinelt, M., Erlenkeuser, H, Garbe-Schoenberg, D., and Lea, D."	2005	EARTH PLANET SCI LETT	335
+"Anderson, R., Fleischer, M., and Lao, Y."	2006	EARTH PLANET SCI LETT	336
+"Ruddiman, W., Raymo, M., Martinson, D. Clement, B, and Backman, J."	1989	PALEOCEANOGRAPHY	337
+"Bond, G., Broecker, W., Lotti, R., McManus, J."	1992	"START GLACIAL GLOBAL ENV CHANGE, NATO ASI Series I"	338
+"Bond, G., Brecker, W., Johnsen, S. MacManus, J., Labeyrie, L. Jouzel, J., and Bonbani, G."	1993	NATURE	339
+"Bond, G., Heinrich, H., Broecker, W., Labayrie, L., McManus, J., Andrews, J., Huon, S.,Jantschik, R., clasen, S., Smiet, C. Tedesco, K., Klas, M., Bonanai, G., and Ivy, S."	1992	NATURE	340
+"Ruddiman, W. F., McIntyre, A., and Raymo, M"	1987	INIT REP DSDP	341
+"Kuhn, G., and Diekmann, B."	2003	"PROC ODP, SCI RESULTS"	342
+"Janecek, T. R."	2001	"PROC ODP, SCI RESULTS"	344
+"Poirier, A., AND C. Hillaire-Marcel"	2009	GEOPHYS RES LETT	345
+"Gleason, J. D., Thmas, D.J., Moore JR., T.C, Blum, J.D., Owen, R.M. and Hayley, B.A."	2009	PALEOCEANOGRAPHY	346
+"Chang, Y.-P., Wu, S-M., Wei, K-Y., Murayama,M., Kawahata, H., and Chen, M-T.: "	2005	TERR ATM OCEAN SCI	348
+"Oyun, M. S., Elderfield, H., and Klinkhammer, G.P."	1995	"PROC ODP, SCI RESULTS"	349
+"Mix, A. e. a."	1995	"PROC ODP, SCI RESULTS"	350
+"Snoeckx, H., and Rea, D.K."	1995	"PROC ODP, SCI RESULTS"	351
+"MAYER, L. P., N; HAGELBERG, T; HOLLER, P; HOVAN, S; IWAI, M; KEMP, A; KIM, D; KLINKHAMMER, G; LEINEN, M; LEVI, S; LEVITAN, M; JANECEK, T; LYLE, M; MACKILLOP, A; MEYNADIER, L; MIX, A; SHACKLETON, N; VALET, J; VINCENT, E; BALDAUF, J; BLOOMER, S; DADEY, K; EMEIS, K; FARRELL, J; FLORES, J; GALIMOV, E"	1992	"PROC ODP, INIT REPORTS"	352
+"Carpentier, M., Chauvel, C., Maury, R., Matielli N."	2009	EARTH PLANET SCI LETT	354
+"McManus, J., Oppo, D., and Cullen,, J"	1999	SCIENCE	355
+"Pearson, P., Foster, G., and Wade, B."	2009	NATURE	356
+"Yu, J., Elderfield, H., and Hoenisch, B."	2007	PALEOCEANOGRAPHY	357
+"Piotrowski, A. M. B., Virupaxa K; Scrivner, Adam E; Elderfield, Henry; Galy, Albert; Dennis, Aileen"	2009	EARTH PLANET SCI LETT	358
+"Ogawa, Y. T., K; Yamanaka, T; Onodera, J"	2009	EARTH PLANET SCI LETT	359
+"Franzese, A., Hemming, S., and Goldstein, S."	2009	PALEOCEANOGRAPHY	360
+"Banakar, V. K., A. Galy, N.P. Sukumaram, G. Parthiban, and A.Y. Volvaiker"	2005	INDIAN J MAR SCI	361
+"Verplanck, E., Lang farmer, G., Andrews, J., Dunhill, G., and Millo, C."	2009	EARTH PLANET SCI LETT	362
+"Dickson, A. J., W.E.N, Auston, I.R. Hall, M.A. Maslin, and M. Kucera"	2008	PALEOCEANOGRAPHY	363
+"Peterson, L. C., G.H. Haug, R.W. Murray, K.M. Yarincik, J.W. King, T.J. Bralower, K. Kameo, S.D. Rutherford, and R.B. Pearce"	2000	"PROC ODP, SCI RESULTS"	364
+"Peters, J., Murray, R., Sparks, J., and Coleman, D."	2000	"PROC ODP, SCI RESULTS"	365
+"Kuykendall, W. F., Hofman, B.W., Wainerdi, R.E."	2000	INIT REP DSDP	366
+"Pimm , A. C."	1971	INIT REP DSDP	367
+"Gieskes, J. M. J., Jeff: Hussong, Donald M.: Uyeda, Seiya: Blanchet, Rene: Bleil, Ulrich: Ellis, C. Howard: Francis, Timothy J. G.: Fryer, Patricia: Horai, Ki-Iti: Kling, Stanley: Meijer, Arend: Nakamura, Kazuaki: Natland, James H.: Packham, Gordon H.: Sharaskin, Anatoly Ya"	1982	INIT REP DSDP	368
+"Gieskes, J. M., and Johnson, J."	1980	INIT REP DSDP	369
+"Party, S. S."	1980	INIT REP DSDP	370
+"Komor, S. C., and Mottl, M.J."	2006	"PROC ODP, SCI RESULTS"	371
+"Migdisov, A., Miklishansky, A., Saveliev, N., Bredanova, N., Giron, Y., Pavlutskaya, V., Yakolev, Y., "	1980	INIT REP DSDP	372
+"Party, S. S."	1980	INIT REP DSDP	373
+"Party, S. S."	1980	INIT REP DSDP	374
+"Party, S. S."	1980	INIT REP DSDP	375
+"Presley, B. J., and Kaplan, I.R"	1970	INIT REP DSDP	376
+"Manheim, F. T., and Sayles, F.L."	1971	INIT REP DSDP	377
+"Renaudie, J., Danelian, T., Saint Martin, S., Le Callonnec, L., Tribovillard, N"	2010	PALAEO	378
+"Galy, V., France-Lanord, C., Peucker-Ehrenbrink, B., Huyghe, P."	2010	EARTH PLANET SCI LETT	379
+"Wan, S., Kurschner, W., Clift, P., Li, A., Li, T."	2009	J GEOPHYS RES	380
+"Rickaby, R., Elderfield, H., Roberts, N., Hillenbrand, C-D., Mackensen, A."	2010	PALEOCEANOGRAPHY	381
+"Okafor, C. U., Thomas, D.J., Wade, B.S., Firth, J."	2009	GEOCHEM GEOPHYS GEOSYST	382
+"Dickson, A., Beer, C., Dempsey, C., Maslin, M.,, Bendle, J., McClymont, E., AND Pancost, R"	2009	NATURE GEOSCIENCE	383
+"De Pol-Holz, R., Robinson, R., Hebbeln, D., Sigman, D., Ulloa,  O."	2009	DEEP SEA RESEARCH	384
+"Hebbeln, D., Marchant, M., Fruedenthal. T., Wefer, G."	2000	MARINE GEOLOGY	385
+"De Schepper, S., Head, M., Groenevald, J"	2009	PALEOCEANOGRAPHY	386
+"Ravizza, G., Norris, R., Blusztajn, J."	2001	PALEOCEANOGRAPHY	387
+"Sun, J., and Zhu"	2010	EARTH PLANET SCI LETT	388
+"Mascarenhas-Pereira, M., Nagender Nath, B."	2010	MARINE CHEMISTRY	389
+"Pattan, J. N., Banakar, V.K."	1993	MARINE GEOLOGY	390
+"Oxburgh, R., Pierson-Wickmann, A-C., Resiberg, L., AND Hemming S."	2007	EARTH PLANET SCI LETT	391
+"Horner, T., Schoenbaechler, M., Rehkaemper, M., Nielsen, S., Williams, H., Halliday, A., Xue, Z., Hein J."	2010	GEOCHEM GEOPHYS GEOSYST	392
+"Nath, B. N., Balaram, V., Sudhakar, M., Plueger, W."	1992	MARINE CHEMISTRY	393
+"Piper, D. Z."	1974	GEOCHIM COSMOCHIM ACTA	394
+"Yarincik, K., Murray, R., Lyons, T., Peterson, L., Haug, G"	2000	PALEOCEANOGRAPHY	395
+"Yarincik, K., Murray, R.W."	2000	PALEOCEANOGRAPHY	396
+"Niedermeyer, E., Prange, M., Mulitza, S., Mollenhauer, G., Schefuss, E., Schulz, M."	2009	GEOPHYS RES LETT	397
+"Ramaswamy, V., Gaye, B., Shirodkar, P., Rao, P., Chivas, A., Wheeler,D., Thwin, S."	2008	MARINE CHEMISTRY	398
+"Rothwell, R., Weaver, P., Hodkinson, R., Pratt, C., Styzen, M., and Huggs, N"	1994	"PROC ODP, SCI RESULTS"	399
+"Lin, H., Peterson, L. Overpeck, J., Trumbore, S., Murray, D."	1997	PALEOCEANOGRAPHY	400
+"Scientists, E. T."	2009	IODP PREL REP	401
+"Chanell, J., Kanamatsu, T., Sato, T., Stein R., Alvarez Zarekian, C., Malone, M. and the Expedition 303/306 Scientists"	2006	PROC IODP	402
+"Ennyu, A., and  Malone, M."	2009	PROC IODP	403
+"Lee, D.-C., Halliday, A., Hein, J., Burton, K, Christensen, J, Guenther, D."	1999	SCIENCE	404
+"Godfrey, L. V., Lee, D-C., Sangrey, W.F., Halliday, A.N., Salters, V.J.M., Hein, J.R., White, W.M."	1997	EARTH PLANET SCI LETT	405
+"Christensen, J. N. H., Alex N.: Godfrey, Linda V.: Hein, James R.: Rea, David K."	1997	SCIENCE	406
+"Piotrowski, A. M. L., Der-Chuen: Christensen, John N.: Burton, Kevin W.: Halliday, Alex N.: Hein, James R.: G¨?nther, Detlef"	2000	EARTH PLANET SCI LETT	407
+"van de Flierdt, T. F., Martin: Halliday, Alex N.: Hein, James R.: Hattendorf, Bodo: G¨?nther, Detlef: Kubik, Peter W."	2004	EARTH PLANET SCI LETT	408
+"Patchett, P. J. W., W. M.: Feldmann, H.: Kielinczuk, S.: Hofmann, A. W."	1984	EARTH PLANET SCI LETT	409
+"Albarede, F. S., Antonio: Vervoort, Jeffrey D.: Blichert,: Toft, Janne: Abouchami, Wafa"	1998	GEOPHYS RES LETT	410
+"Chauvel, C. L., Eric: Carpentier, Marion: Arndt, Nicholas T.: Marini, Jean-Christophe"	2008	NATURE GEOSCIENCE	411
+"Griffith, E. C., Michael: Thomas, Ellen: Averyt, Kristen: Erhardt, Andrea: Bralower, Timothy: Lyle, Mitch: Olivarez-Lyle, Annette: Paytan, Adina"	2010	PALEOCEANOGRAPHY	412
+"Mix, A. C., Le, J., and Shackleton, N.J."	1995	"PROC ODP, SCI RESULTS"	413
+"Leinen, M. S."	2003	US JGOFS PROCESS STUDY DATA 1989-1998	414
+"McGee, D., F. Marcantonio, McManus, J;, Winckler, G.: "	2010	EARTH PLANET SCI LETT	415
+"Anderson, R."	2003	US JGOFS PROCESS STUDY DATA 1989-1998	416
+"Ziegler, C. L. M., Richard W.: Plank, Terry: Hemming, Sidney R."	2008	EARTH PLANET SCI LETT	417
+"Raymo, M. E. R., W. F.: Backman, J.: Clement, B. M.: Martinson, D. G."	1989	PALEOCEANOGRAPHY	418
+"Broecker, W. S. B., Gerard; Klas, Millie; Bonani, Georges; Woelfli, Willy"	1990	PALEOCEANOGRAPHY	419
+"Lazarus, D. B. S.-C., Cinzia; Pianka-Biolzi, Milena; Beckmann, Jean-Pierre; von Salis, Katharina H; Hilbrecht, Hienz; Thierstein, Hans"	1995	ODP TECHINICAL NOTE	420
+"Latimer, J. C. F., Gabriel M"	2001	"PROC ODP, SCI RESULTS"	421
+"Gersonde, R. H., David A; Blum, Peter; Andersson, Carin; Austin, William E N; Billups, Katharina; Channell, James E T; Charles, Christopher D; Diekmann, Bernhard; Filippelli, Gabriel M; Flores, Jose Abel; Hewitt, Antony T; Howard, William R; Ikehara, Minoru; Janecek, Thomas R; Kanfoush, Sharon L; Kemp, Alan E S; King, Stagg L; Kleiven, Helga F; Kuhn, Gerhard; Marino, Maria; Ninnemann, Ulysses S; O'Connell, Suzanne; Ortiz, Joseph D; Stoner, Joseph S; Sugiyama, Kazuhiro; Warnke, Detlef A; Zielinski, Ulrich."	1999	"PROC ODP, INIT REPORTS"	422
+"Altabet, M. A. H., Matthew J.: Murray, David W."	2002	NATURE	423
+"Bryan, S. P. M., Thomas M.: Lehman, Scott J."	2010	EARTH PLANET SCI LETT	424
+"Zhou, L. K., Frank"	1992	PALEOCEANOGRAPHY	425
+"Haug, G. H. H., K. A.: Sigman, D. M.: Peterson, L. C.: Roehl, U."	2001	SCIENCE	426
+"Fran?ﬂois S. Paquay: Steven Goderis: Greg Ravizza, F. V. M. B. T. A. S. V. T. H. C. V. H., Jr.: Philippe Claeys: "	2009	PNAS	427
+"Meckler, A. N. H., Gerald H.: Sigman, Daniel M.: Plessen, Birgit: Peterson, Larry C.: Thierstein, Hans R."	2007	GLOBAL BIOGEOCHEM CYCLES	428
+"Herbert, T. D. S., Jeffrey D."	2000	"PROC ODP, SCI RESULTS"	429
+"Lyons, T. W. W., Josef P.: Hollander, David J.: Murray, R. W."	2003	CHEMICAL GEOLOGY	430
+"Not, C. H.-M., Claude"	2010	QUATERNARY SCIENCE REVIEWS	431
+"Overpeck, J. A., David: Trumbore, Susan: Prell, Warren"	1996	CLIMATE DYNAMICS	432
+"Anderson, D. M."	1991	"PhD THESIS, BROWN UNIVERSITY"	433
+"Mertens, K. N. J. M. L., Matt: Aycard, Mylene: Lin, Hui-Ling: Louwye, Stephen"	2009	J QUAT SCI	434
+"Haug, G. H. P., Thomas F; Sigman, Daniel M; Calvert, Stephen E; Nielsen, Bente; Peterson, Larry C"	1998	PALEOCEANOGRAPHY	435
+"Hughen, K. S., J.; Lehman, S.; Bertrand, C.; Turnbull, J."	2006	QUATERNARY SCIENCE REVIEWS	436
+"Pattan, J. N. P., G."	2011	J ASIAN EARTH SCI	437
+"Bard, E. A., Maurice: Mangerud, Jan: Paterne, Martine: Labeyrie, Laurent: Duprat, Josette: M?‡li?„res, Marie-Antoinette: S¨ÿnstegaard, Eivind: Duplessy, Jean-Claude"	1994	EARTH PLANET SCI LETT	438
+"Bond, G. S., William J.: Cheseby, Mazier: Lotti, Rusty: Almasi, Peter: deMenocal, Peter: Priore, Paul: Cullen, Heidi: Hajdas, Irka: Bonani, Georges"	1997	SCIENCE	439
+"Broecker, W. S. A., Michael: Bonani, Georges: Wolfli, Willi: Oeschger, Hans: Klas, Mieczyslawa"	1988	QUATERNARY RESEARCH	440
+"Broecker, W. S. A., M.: Wolfli, W.: Oeschger, H.: Bonani, G.: Kennett, J.: Peteet, D."	1988	PALEOCEANOGRAPHY	441
+"Benway, H. M. M., Jerry F.: Oppo, Delia W.: Cullen, James L."	2010	QUATERNARY SCIENCE REVIEWS	442
+"Mollenhauer, G. M., Jerry F.: Wagner, Thomas: McCave, I. Nick: Eglinton, Timothy I."	2011	EARTH PLANET SCI LETT	443
+"Michel, H. V. A., Frank; Alvarez, Walter; Alvarez, Luis W"	1985	INIT REP DSDP	444
+"Jansen, E. V., T."	1990	NATURE	445
+"Schulz, H."	1995	"PhD THESIS, KIEL UNIVERSITY"	446
+"Members, C. P."	1976	SCIENCE	447
+"Ruddiman, W. F., Farrell, J."	1992	IGBP PAGES/World Data Center for Paleoclimatology Data Contribution Series	448
+"Kilian, R., Behrmann, Jan H."	2003	J GEOL SOC	449
+"Leon-Rodriguez, L. D., Gerald R."	2010	PALAEO	450
+"Lucassen, F. W., Michael: Franz, Gerhard"	2010	INT J EARTH SCI	451
+"Owen, R. M. Z., Andrew R. B."	1991	"PROC ODP, SCI RESULTS"	452
+"Owen, R. M. Z., Andrew R. B."	1991	"PROC ODP, SCI RESULTS"	453
+"Michel, H. V. A., Frank: Alvarez, Walter"	1991	"PROC ODP, SCI RESULTS"	454
+"Schuraytz, B. C. O. C., S. O.: Sharpton, Virgil L."	1991	"PROC ODP, SCI RESULTS"	455
+"Gamble, J. W., Jon: Wright, Ian: Smith, Ian"	1996	J PETROL	456
+"Ishikawa, T. N., Eizo"	1993	EARTH PLANET SCI LETT	457
+"Nebel, O. V., P. Z.: Wiggers de Vries, D. F.: Jenner, F. E.: Mavrogenes, J. A."	2010	GEOCHIM COSMOCHIM ACTA	458
+"Radke, L. C. H., A. D.: Douglas, G.: Nichol, S.: Trafford, J.: Li, J.: Przeslawski, R."	2011	DEEP SEA RESEARCH	459
+"Youn, J. K., Tae-Joung"	2011	QUATERNARY INTERNATIONAL	460
+"Dolor, M. K. H., George R.: McDonough, William F."	2009	MARINE POLLUTION BULLETIN	461
+"Meyer, I. D., Gareth R.: Stuut, Jan-Berend W."	2011	GEOCHEM GEOPHYS GEOSYST	462
+"George, R. T., Simon: Hawkesworth, Chris: Morris, Julie: Nye, Chris: Ryan, Jeff: Zheng, Shu-Hui"	2003	J GEOPHYS RES	463
+"Stax, R. S., Ruediger"	1995	"PROC ODP, SCI RESULTS"	464
+"Cao, L. Q. A., R. J.: McKelvey, Barrie C."	1995	"PROC ODP, SCI RESULTS"	465
+"Kersting, A."	1995	"PROC ODP, SCI RESULTS"	466
+"Peucker-Ehrenbrink, B. H., A. W.: Hart, S. R."	1994	EARTH PLANET SCI LETT	467
+"Kay, R. S., S: Lee-Hu,C"	1978	GEOCHIM COSMOCHIM ACTA	468
+"Natland, J. H."	1973	INIT REP DSDP	469
+"Bode, G."	1973	INIT REP DSDP	470
+"Pratt, R."	1973	INIT REP DSDP	471
+"Bode, G."	1973	INIT REP DSDP	472
+"Rea, D. K. B., Ivan A; Janecek, Thomas R; Arnold, Eve; Barron, John A"	1993	"PROC ODP, INIT REPORTS"	473
+"Pedersen, T. I., B.: "	1995	"PROC ODP, SCI RESULTS"	474
+"Rea, D."	1993	"PROC ODP, INIT REPORTS"	475
+"Rea, D. K. B., Ivan A; Janecek, Thomas R; Arnold, Eve; Barron, John A; "	1993	"PROC ODP, INIT REPORTS"	476
+"Rea, D. K. B., Ivan A; Janecek, Thomas R; Arnold, Eve; Barron, John A; "	1993	"PROC ODP, INIT REPORTS"	477
+"Cao, L. A., R.: McKelvey, Barrie"	1995	"PROC ODP, SCI RESULTS"	478
+"POIRIER, A., AND C. HILLAIRE-MARCEL"	2011	GEOPHYS RES LETT	479
+"Kato, Y. F., Koichiro: Nakamura, Kentaro: Takaya, Yutaro: Kitamura, Kenichi: Ohta, Junichiro: Toda, Ryuichi: Nakashima, Takuya: Iwamori, Hikaru"	2011	NATURE GEOSCIENCE	480
+"Vervoort, J. D., T. Plank, J. Prytulak"	2011	GEOCHIM COSMOCHIM ACTA	481
+"Hyeong, K., Junguk, K., Pettke, T.,Yoo, C., Hur, S."	2011	CHEMICAL GEOLOGY	482
+"Westerhold, T., Roehl, U., Donner, B., McCarren, H., and Zachos, J."	2011	PALEOCEANOGRAPHY	483
+"Karas, C. N., Dirk: Tiedemann, Ralf: Garbe-Schoenberg, Dieter"	2011	EARTH PLANET SCI LETT	484
+"Keigwin, L."	1995	"PROC ODP, SCI RESULTS"	485
+"McKelvey, B., Chen, W., Arculus, R."	1995	"PROC ODP, SCI RESULTS"	486
+"Dickens, G. R., Snoeckx, H., Arnold, E., Morley, J.J., Owen, R.M., Rea, D.K., and Ingram, L."	1995	"PROC ODP, SCI RESULTS"	487
+"Swann, G."	2010	EARTH PLANET SCI LETT	488
+"Dickson, A. J., M.J. Leng, M.A. Maslin, and U. R??hl."	2010	QUATERNARY SCIENCE REVIEWS	489
+"Naafs, D., Stein, R., Hefter, J., Khelifi, N., De Schepper, S., Haug, G."	2010	EARTH PLANET SCI LETT	490
+"Dekov, E., Cuadros, J., Kemnov, G., Weiss, D., Arnold, T., Basak, C., and Rochette, P."	2010	GEOCHIM COSMOCHIM ACTA	491
+"Dalai, T., and Ravizza, G."	2010	GEOCHIM COSMOCHIM ACTA	492
+"Gutjahr, M. H., Babette A A; Frank, Martin; McCave, I Nicholas. "	2010	EARTH PLANET SCI LETT	493
+"Rea, D. K., Basov, I.A., Janecek, T.R., Palmer-Julson, A., et al., "	1993	"PROC ODP, INIT REPORTS"	494
+"You, C. F. M., J D; Gieskes, J M; Rosenbauer, R; Zheng, S H; Xu, X; Ku, T L; Bischoff, J L"	1994	GEOCHIM COSMOCHIM ACTA	495
+"Snoeckx, H. R., David K; Jones, Charles E; Ingram, B Lynn; Basov, Ivan A; Janecek, Thomas R; Arnold, Eve; Barron, John A; Beaufort, Luc; Bristow, James F; deMenocal, Peter; Dubuisson, Gilles J; Gladenkov, Andrey Y; Hamilton, Tark; Keigwin, Lloyd D, Jr; Keller, Randall A; Kotilainen, Aarno T; Krissek, Lawrence A; McKelvey, Barrie C; Morley, Joseph J; Okada, Makoto; Olafsson, Gunnar; Owen, Robert M; Pak, Dorothy; Pedersen, Thomas F; Roberts, John A; Rutledge, Anne K; Shilov, Valery V; Stax, Rainer; Tiedemann, Ralf; Weeks, Robin; Palmer-Julson, Amanda;"	1995	"PROC ODP, SCI RESULTS"	496
+"Rea, D. K., Basov, I.A., Janecek, T.R., Palmer-Julson, A., et al.,"	1995	"PROC ODP, INIT REPORTS"	497
+"Arbuszewski, J. d., Peter; Kaplan, Alexey; Farmer, E Christa."	2010	EARTH PLANET SCI LETT	498
+"Jorry, S. J., A. W. Droxler, G. Mallarino, G. R. Dickens, S. J. Bentley, L. Beaufort, L. C. Peterson, and B. N. Opdyke"	2008	J GEOPHYS RES	499
+"Carson, B. E., J. M. Francis, R. M. Leckie, A. W. Droxler, G. R. Dickens, S. J. Jorry, S. J. Bentley, L. C. Peterson, and B. N. Opdyke"	2008	J GEOPHYS RES	500
+"Febo, L. A. B., Samuel J; Wrenn, John H; Droxler, Andre W; Dickens, Gerald R; Peterson, Larry C; Opdyke, Bradley N"	2008	J GEOPHYS RES	501
+"Smart, C. W. W., Claire; Michel, Elisabeth; Mazaud, Alain"	2010	PALAEO	502
+"van de Flierdt, T. H., Sidney R; Goldstein, Steven L; Gehrels, George E; Cox, Stephen E. "	2008	J GEOPHYS RES	503
+"Bradtmiller, L. A., R F; Sachs, J P; Fleisher, M Q"	2010	EARTH PLANET SCI LETT	504
+"Bradtmiller, L. I., R.F. Anderson, M.Q. Fleisher, and L.H. Burckle"	2006	PALEOCEANOGRAPHY	505
+"Govin, A. M., Elisabeth; Labeyrie, Laurent D; Waelbroeck, Claire; Dewilde, Fabien; Jansen, Eystein"	2009	PALEOCEANOGRAPHY	506
+"Naafs, B. D. A., J. Hefter, P. Ferretti, R. Stein, and G. H. Haug"	2011	PALEOCEANOGRAPHY	507
+"Malone, M. J., and Slowey, N"	2007	"PROC ODP, SCI RESULTS"	508
+"Torres, M. E., and Rugh, W.D., "	2006	"PROC ODP, SCI RESULTS"	509
+"Tomaru, H., Matsumoto, R., Torres, M.E., and Borowski, W.S."	2006	"PROC ODP, SCI RESULTS"	510
+"De Carlo, E. H., Lackschewitz, K.K., and Carmody, R."	2002	"PROC ODP, SCI RESULTS"	512
+"Malone, M. J., and Martin, J.B."	2000	"PROC ODP, SCI RESULTS"	513
+"Claypool, G. E., Vuletich, A.K., and Rennison, C."	2000	"PROC ODP, SCI RESULTS"	514
+"Swart, P. K."	2000	"PROC ODP, SCI RESULTS"	515
+"De Carlo, E. H., and Kramer, P.A"	2000	"PROC ODP, SCI RESULTS"	516
+"Gieskes, J. M., Mahn, C., and Schnetzger, B."	2000	"PROC ODP, SCI RESULTS"	517
+"Kastner, M., and Elderfield, H., "	1995	"PROC ODP, SCI RESULTS"	518
+"Horikawa, K., Martin, E., Asahara, Y., Sagawa, T."	2011	EARTH PLANET SCI LETT	519
+"Israelson, C., Buchardt, B., Haggerty, J.A., and Pearson, P.N."	1995	"PROC ODP, SCI RESULTS"	520
+"Buchardt, B., Israelson, C., Wilson, P.A., and Opdyke, B.N"	1995	"PROC ODP, SCI RESULTS"	521
+"Knoop, P. A."	2005	"PROC ODP, SCI RESULTS"	522
+"Knoop, P. A."	2005	"PROC ODP, SCI RESULTS"	523
+"Lippold, J., J.-M. Gherardi, and Y. Luo"	2011	GEOPHYS RES LETT	524
+"Ito, T., Komuro, K., Hatsuya, K., and Nishi, H.,"	2005	"PROC ODP, SCI RESULTS"	525
+"Latimer, J. C., and Filippelli, G.M."	2003	"PROC ODP, SCI RESULTS"	526
+"Weedon, G. P., and Hall, I.R."	2002	"PROC ODP, SCI RESULTS"	527
+"Allan, T., Robertson, A.H.F., Sharp, T.R., and Trotter, J."	2001	"PROC ODP, SCI RESULTS"	528
+"Robertson, A. H. F., and Sharp, T.R."	2002	"PROC ODP, SCI RESULTS"	529
+"Hetzel, A., Brumsack, H.-J., Schnetger, B., and B??ttcher, M.E., "	2006	"PROC ODP, SCI RESULTS"	530
+"Bice, K. L., and Norris, R.D., "	2005	"PROC ODP, SCI RESULTS"	531
+"Carel, M., Siani, G., Delpech, G."	2011	J VOLCANOL GEOTHERM RES	532
+"Fontilea, K., Marsaglia, K.M., and Dean, N."	2006	"PROC ODP, SCI RESULTS"	533
+"Chambers, S. R., and Cranston, R.E."	1991	"PROC ODP, SCI RESULTS"	534
+"Masuda, H., Tanaka, H., Gamo, T., Soh, W., and Taira, A., "	1993	"PROC ODP, SCI RESULTS"	536
+"Elderfield, H., Swart, P.K., McKenzie, J.A., and Williams, A."	1993	"PROC ODP, SCI RESULTS"	537
+"Swart, P. K., Isern, A., Elderfield, H., and McKenzie, J.A."	1993	"PROC ODP, SCI RESULTS"	538
+"De Carlo, E. H., and Kramer, P.A"	1993	"PROC ODP, SCI Rep"	539
+"Meckler, A. N., H. Ren, D. M. Sigman, N. Gruber, B. Plessen, C. J. Schubert, and G. H. Haug "	2011	PALEOCEANOGRAPHY	540
+"Kastner, M., Elderfield, H., Jenkins, W.J., Gieskes, J.M., and Gamo, T., "	1993	"PROC ODP, SCI RESULTS"	541
+"Pospichal, J. J., Wei, W., and Wise, S.W., Jr., "	1991	"PROC ODP, SCI RESULTS"	542
+"You, C.-F., Gieskes, J.M., Chen, R.F., Spivack, A., and Gamo, T. "	1993	"PROC ODP, SCI RESULTS"	543
+"Kastner, M., and Zheng, Y."	1997	"PROC ODP, SCI RESULTS"	544
+"Lin, P.-N."	1992	GEOCHIM COSMOCHIM ACTA	547
+"Zarriess, M., H. Johnstone, M. Prange, S. Steph, J. Groeneveld, S. Mulitza, and A. Mackensen"	2011	GEOPHYS RES LETT	548
+"Wit, J. C., G.-J. Reichart, S. J. A Jung, and D. Kroon "	2010	PALEOCEANOGRAPHY	549
+"Fagel, N., and N. Mattielli "	2011	PALEOCEANOGRAPHY	550
+"Munoz, P. D., Laurent: Lange, Carina: Cardenas, Lissette: Sellanes, Javier: Salamanca, Marco A.: Maldonado, Antonio"	2011	PROGRESS IN OCEANOGRAPHY	551
+"Gutjahr, M. L., Joerg"	2011	PALEOCEANOGRAPHY	552
+"Lippold, J., J. Gr?∫tzner, D. Winter, Y. Lahaye, A. Mangini, and M. Christl"	2009	GEOPHYS RES LETT	553
+"Makou, M., Oppo, D., and Curry, W."	2010	PALEOCEANOGRAPHY	554
+"Ando, A., Khim, B-K., Nakano, T., and Takata, H."	2011	MARINE GEOLOGY	555
+"Maccali, J., Hillaire-Marcel, C., Carignan, J., and Reisberg, L."	2012	PALEOCEANOGRAPHY	556
+"Goswami, V., Singh, S., Bhushan, R., and Rai, V."	2012	GEOCHEM GEOPHYS GEOSYST	557
+"Stumpf, R., Frank, Martin, Schoenfeld, Joachim and Haley, Brian A."	2010	QUATERNARY SCIENCE REVIEWS	558
+"Limmer, D. R., P. B??ning, L. Giosan, C. Ponton, C. M. K??hler, M. J. Cooper, A. R. Tabrez, and P. D. Clift"	2012	GEOCHEM GEOPHYS GEOSYST	559
+"Ehlert, C. F., M.: Haley, B. A.: Boniger, U.: De Deckker, P.: Gingele, F. X."	2011	GEOCHEM GEOPHYS GEOSYST	560
+"Marz, C. V., C.: Schnetger, B.: Brumsack, H. J."	2011	EARTH PLANET SCI LETT	561
+"Nielsen, S. G. G., Abdelmouhcine: Marnham, Charles: Burton, Kevin W.: Halliday, Alex N.: Hein, James R."	2011	PALEOCEANOGRAPHY	562
+"Box, M. R. K., M. D.: Cliff, R. A.: Bar-Matthews, M.: Almogi-Labin, A.: Ayalon, A.: Paterne, M."	2011	QUATERNARY SCIENCE REVIEWS	563
+"Abouchami, W. Z., M."	2003	EARTH PLANET SCI LETT	565
+"Jullien, E. G., Francis: Malaize, Bruno: Duprat, Josette: Sanchez-Goni, Maria Fernanda: Eynaud, Frederique: Charlier, Karine: Schneider, Ralph: Bory, Aloys: Bout, Viviane: Flores, Jose Abel"	2007	QUATERNARY RESEARCH	566
+"Xie, R. C. M., Franco"	2012	EARTH PLANET SCI LETT	567
+"Ohkushi, K. S., Atsushi: Kawahata, Hodaka: Gupta, Lallan P."	2003	MARINE MICROPALENTOLOGY	568
+"Hull, P. M. F., Peter J. S.: Norris, Richard D."	2011	EARTH PLANET SCI LETT	569
+"Lee, C.-T. A. W., Gerald J.: Kyte, Frank T."	2003	GEOCHIM COSMOCHIM ACTA	570
+"Paquay, F. o. S. R., Gregory E.: Dalai, Tarun K.: Peucker-Ehrenbrink, Bernhard"	2008	SCIENCE	571
+"Misra, S. F., Philip N."	2012	SCIENCE	572
+"Burton, K. W. B., Bernard: Birck, Jean-Louis: Allegre, Claude J.: Hein, James R."	1999	EARTH PLANET SCI LETT	573
+"Burton, K. W. G., Abdelmouhcine: Parkinson, Ian J."	2010	EARTH PLANET SCI LETT	574
+"Chun, C. O. J. D., Margaret L.: Zachos, James C."	2010	PALEOCEANOGRAPHY	576
+"Kubota, Y. K., Katsunori: Tada, Ryuji: Oda, Hirokuni: Yokoyama, Yusuke: Matsuzaki, Hiroyuki"	2010	PALEOCEANOGRAPHY	577
+"Xiong, Z. L., Tiegang: Algeo, Thomas: Chang, Fengming: Yin, Xuebo: Xu, Zhaokai"	2012	CHEMICAL GEOLOGY	578
+"Zachos, J. C. O., Bradley N.: Quinn, Terrence M.: Jones, Charles E.: Halliday, Alex N."	1999	CHEMICAL GEOLOGY	579
+"Dean, W. E. A., Michael A."	2011	US GEOL SURV OPEN FILE REP	580
+"Murphy, B. H. F., K. A.: Zachos, J. C."	2010	GEOCHIM COSMOCHIM ACTA	581
+"Mackensen, A."	2012	EARTH PLANET SCI LETT	582
+"Noble, T. L. P., Alexander M.: Robinson, Laura F.: McManus, Jerry F.: Hillenbrand, Claus-Dieter: Bory, Aloys J. M."	2012	EARTH PLANET SCI LETT	583
+"Addison, J. A. F., Bruce P.: Dean, Walter E.: Davies, Maureen H.: Mix, Alan C.: Stoner, Joseph S.: Jaeger, John M."	2012	PALEOCEANOGRAPHY	584
+"Cowie, G. L. M., Stephen: Lewis, Michelle: Matheson, Helen: McKenzie, Rebecca"	2009	DEEP SEA RESEARCH	585
+"Bohaty, S. M. Z., James C.: Delaney, Margaret L."	2012	EARTH PLANET SCI LETT	586
+"Singh, A. K. M., Franco: Lyle, Mitchell"	2011	EARTH PLANET SCI LETT	587
+"Iwasaki, S. T., Kozo: Maesawa, Takuya: Sakamoto, Tatsuhiko: Sakai, Saburo: Iijima, Koichi"	2012	DEEP SEA RESEARCH	588
+"Sakamoto, T. I., Minoru: Aoki, K.: Iijima, K.: Kimura, N.: Nakatsuka, T.: Wakatsuchi, M."	2005	DEEP SEA RESEARCH	589
+"van de Flierdt, T. F., Martin: Lee, Der-Chuen: Halliday, Alex N."	2002	EARTH PLANET SCI LETT	590
+"Ziebis, W. M., James: Ferdelman, Timothy: Schmidt-Schierhorn, Friederike: Bach, Wolfgang: Muratli, Jesse: Edwards, Katrina J.: Villinger, Heinrich"	2012	EARTH PLANET SCI LETT	591
+"Le Houedec, S. M., Laure: Allegre, Claude J."	2012	EARTH PLANET SCI LETT	592
+"Wara, M. W. a. A. C. R."	2006	"PROC ODP, SCI RESULTS"	593
+"Meister, P., Prokopenko, M., Skilbeck, C. G., Watson, M., McKenzie, J. A.,"	2006	"PROC ODP, SCI RESULTS"	594
+"Skilbeck, C. G., and Fink, D."	2006	"PROC ODP, SCI RESULTS"	595
+"Basak, C. M., Ellen E.: Kamenov, George D."	2011	CHEMICAL GEOLOGY	596
+"Kurzweil, F. G., Marcus: Vance, Derek: Keigwin, Lloyd"	2010	EARTH PLANET SCI LETT	597
+"Murray, R. W. L., Margaret: Knowlton, Christopher W."	2012	NATURE GEOSCIENCE	598
+"Gutjahr, M. F., Martin: Halliday, Alex N.: Keigwin, Lloyd D."	2009	EARTH PLANET SCI LETT	599
+"Venti, N. L. B., Katharina"	2012	PALAEO	600
+"Martin, E. E. M., K. G.: Jimenez Berrocoso, A.: Bourbon, E."	2012	EARTH PLANET SCI LETT	601
+"Murphy, D. P. T., Deborah J."	2012	PALEOCEANOGRAPHY	602
+"Witkowski, J. B., Steven M.: McCartney, Kevin: Harwood, David M."	2012	PALAEO	603
+"Crocket, K. C. V., Derek: Foster, Gavin L.: Richards, David A.: Tranter, Martyn"	2012	QUATERNARY SCIENCE REVIEWS	604
+"Barnes, J. D. S., Z. D.: Fischer, T. P.: Hilton, D. R.: Carr, M. J."	2009	GEOCHEM GEOPHYS GEOSYST	605
+"Robinson, S. A. V., Derek"	2012	PALEOCEANOGRAPHY	606
+"Pak, D. K. L., David W.: Kennett, James P."	2012	PALEOCEANOGRAPHY	607
+"Hendy, I. L., and Kennett, J.P"	2000	"PROC ODP, SCI RESULTS"	608
+"Janecek, T."	2000	"PROC ODP, SCI RESULTS"	609
+"Kuroda, T. S., Tatsuhiko: Koizumi, Itaru"	2000	"PROC ODP, SCI RESULTS"	610
+"Irino, T. P., Thomas F.: "	2000	"PROC ODP, SCI RESULTS"	611
+"Ostertag-Henning, C. S., Rainer: "	2000	"PROC ODP, SCI RESULTS"	612
+"Janik, A. G. H., Julie A."	2000	"PROC ODP, SCI RESULTS"	613
+"Yamamoto, M. Y., Masumi: Tada, Ryuji"	2000	"PROC ODP, SCI RESULTS"	614
+"Lyle, M. M., Alan: Ravelo, A. Christina: Andreasen, Dyke: Heusser, Linda E.: Olivarez, Annette"	2000	"PROC ODP, SCI RESULTS"	615
+"deMenocal, P. B., Linda: "	2000	"PROC ODP, SCI RESULTS"	616
+"Page, M. C."	2006	"PROC ODP, SCI RESULTS"	617
+"Obrochta, S. P., and Hine, A.C."	2007	"PROC ODP, SCI RESULTS"	618
+"Fukukawa, M. T., Y.: Hayasaka, Yasutaka: Sakai, Y.: Shimizu, H."	2003	"PROC ODP, SCI RESULTS"	619
+"Farley, K. A. M., A.: Coccioni, R."	2012	GEOCHIM COSMOCHIM ACTA	620
+"Theissen, K. M. D., Robert B.: Cooper, Alan K."	2004	"PROC ODP, SCI RESULTS"	621
+"Andreasen, D. H. F., M.: Harvey, M.: Chang, S.: Ravelo, A. Christina"	2000	"PROC ODP, SCI RESULTS"	622
+"Malone, M. J. M., Jonathan B."	2003	"PROC ODP, SCI RESULTS"	623
+"Milder, J. C. M., Joseph P.: Altabet, Mark A."	1999	"PROC ODP, SCI RESULTS"	624
+"Howell, M. W. T., Robert C.: Di Stefano, Enrico: Sprovieri, Rodolfo: Tappa, Eric J.: Sakamoto, Tatsuhiko"	1998	"PROC ODP, SCI RESULTS"	625
+"Boettcher, M. E. B., Hans-Juergen: de Lange, Gert Jan"	1998	"PROC ODP, SCI RESULTS"	626
+"Ravizza, G."	1998	"PROC ODP, SCI RESULTS"	628
+"de Lange, G. J."	1998	"PROC ODP, SCI RESULTS"	629
+"Kelly, D. C. N., Tina M. J.: Schellenberg, Stephen A."	2012	MARINE GEOLOGY	630
+"Turgeon, S. C. C., Robert A."	2008	NATURE	632
+"Mahoney, J. B."	2005	SEDIMENTARY GEOLOGY	633
+"Kessarkar, P. M. R., V. Purnachandra: Ahmad, S. M.: Babu, G. Anil"	2003	MARINE GEOLOGY	634
+"Boulegue, J. J."	1990	"PROC ODP, SCI RESULTS"	635
+"Woodard, S. C. T., Deborah J.: Marcantonio, Franco"	2012	GEOCHIM COSMOCHIM ACTA	636
+"Woodard, S. C. T., Deborah J.: Hovan, Steve: R¿‹hl, Ursula: Westerhold, Thomas"	2011	GEOCHEM GEOPHYS GEOSYST	637
+"Zhang, H. L., Huayu: Jiang, Shao-Yong: Vandenberghe, Jef: Wang, Shejiang: Cosgrove, Richard"	2012	QUATERNARY SCIENCE REVIEWS	638
+"Crowley, S. F. S., Dorrik A. V.: Bouquillon, Anne: Tiercelin, Jean-Jacques"	1990	"PROC ODP, SCI RESULTS"	639
+"Revel, M. C., M.: Grousset, F. E.: Labeyrie, L."	1996	MARINE GEOLOGY	640
+"Haley, B. A. K., Gary P.: McManus, James"	2004	GEOCHIM COSMOCHIM ACTA	641
+"Henkel, S. M., Jose M.: Noethen, Kerstin: Franke, Christine: Bogus, Kara: Robin, Eric: Bahr, Andre: Blumenberg, Martin: Pape, Thomas: Seifert, Richard: Marz, Christian: de Lange, Gert J.: Kasten, Sabine"	2012	GEOCHIM COSMOCHIM ACTA	642
+"Verma, S. P."	2000	GEOL SOC AMER SPEC PUB	643
+"Jarvis, I. M., Jennifer: Gerard, Martine"	1998	"PROC ODP, SCI RESULTS"	644
+"McDaniel, D. K. M., Scott M.: Hanson, Gilbert N."	1997	"PROC ODP, SCI RESULTS"	645
+"Vilela, C. G. M., Mark A.: "	1997	"PROC ODP, SCI RESULTS"	646
+"Steinmann, M. B., Sabine: Buatier, Martine"	2012	MARINE GEOLOGY	647
+"Wei, G. L., Ying: Ma, Jinlong: Xie, Luhua: Chen, Jianfang: Deng, Wenfeng: Tang, Song"	2012	MARINE GEOLOGY	648
+"Hu, D. B., Philipp: Koehler, Cornelia M.: Hillier, Stephen: Pressling, Nicola: Wan, Shiming: Brumsack, Hans J.: Clift, Peter D."	2012	CHEMICAL GEOLOGY	649
+"Pierret, M. C. C., F.: Leroy, S. A. G.: Causse, C."	2012	QUATERNARY SCIENCE REVIEWS	650
+"Hein, J. R., T. A. Conrad, M. Frank, M. Christl, and W. W. Sager "	2012	GEOCHEM GEOPHYS GEOSYST	651
+"Astakhova, N. V. S., V. V."	2012	RUSSIAN GEOL GEOPHYS	652
+"Woodhead, J. H., Janet: Greig, Alan: Edwards, Louise"	2011	EARTH PLANET SCI LETT	653
+"Dou, Y. Y., Shouye: Liu, Zhenxia: Shi, Xuefa: Li, Jun: Yu, Hua: Berne, Serge"	2012	PALAEO	654
+"Hu, B. L., Guogang: Li, Jun: Bi, Jianqiang: Zhao, Jingtao: Bu, Ruyuan"	2012	QUATERNARY RESEARCH	655
+"Rella, S. F. T., Ryuji: Nagashima, Kana: Ikehara, Minoru: Itaki, Takuya: Ohkushi, Ken'ichi: Sakamoto, Tatsuhiko: Harada, Naomi: Uchida, Masao"	2012	PALEOCEANOGRAPHY	656
+"Owens, J. D. L., Timothy W.: Li, Xiaona: Macleod, Kenneth G.: Gordon, Gwenyth: Kuypers, Marcel M. M.: Anbar, Ariel: Kuhnt, Wolfgang: Severmann, Silke"	2012	PALEOCEANOGRAPHY	657
+"Ravizza, G. V., Denys"	2012	PALEOCEANOGRAPHY	659
+"Basak, C. M., Ellen E."	2013	NATURE GEOSCIENCE	660
+"Maccali, J. H.-M., Claude: Carignan, Jean: Reisberg, Laurie C."	2013	QUATERNARY SCIENCE REVIEWS	661
+"Swann, G. E. A. P., Jennifer: Snelling, Andrea M.: Leng, Melanie J.: Williams, Maria C."	2013	EARTH PLANET SCI LETT	662
+"Leech, P. J. L.-S., Jean: Zhang, Rong"	2013	EARTH PLANET SCI LETT	663
+"Schneider, R., Mueller, P., Schluenz, B., Segl, M., Showers, W., Wefer, G"	1997	"PROC ODP, SCI RESULTS"	664
+"Kuroda, J. W., Thomas"	2013	PROC IODP	665
+"Takashima, C. K., Akihiro: Li, Xianghui: "	2009	PROC IODP	666
+"Frank, T. D."	2009	PROC IODP	667
+"Gilhooly, W. P., III: Macko, Stephen A.: Flemings, Peter B.: "	2006	PROC IODP	668
+"Li, Q., Zheng, F., Cheng, X., and Xiang, R"	2008	PROC IODP	669
+"Castillo, P."	2009	PROC IODP	670
+"Spinelli, G. A. H., Ashley: "	2013	PROC IODP	671
+"Romero, O. E."	2013	PROC IODP	672
+"Wortmann, U. G."	2008	PROC IODP	673
+"Tomaru, H. F., Udo: "	2012	PROC IODP	674
+"Kim, J.-H. L., Young-Joo: "	2009	PROC IODP	675
+"Carpentier, M. W., Dominique: Chauvel, Catherine"	2013	CHEMICAL GEOLOGY	676
+"Pike, J. S., George E. A.: Leng, Melanie J.: Snelling, Andrea M."	2013	NATURE GEOSCIENCE	677
+"Bordiga, M. B., Luc: Cobianchi, Miriam: Lupi, Claudia: Mancin, Nicoletta: Luciani, Valeria: Pelosi, Nicola: Sprovieri, Mario"	2013	PALAEO	678
+"Haley, B. A. P., Leonid"	2013	GEOPHYS RES LETT	679
+"Scopelliti, G. B., Adriana: Monien, Donata: Kuhn, Gerhard"	2013	GLOBAL AND PLANETARY CHANGE	680
+"Mueller, J. W., Kirstin: Stein, Ruediger: Fahl, Kirsten: Moros, Matthias: Jansen, Eystein"	2012	QUATERNARY SCIENCE REVIEWS	681
+"Venti, N. L. B., Katharina"	2013	MARINE MICROPALENTOLOGY	682
+"Tripathy, G. R. S., Sunil Kumar: Ramaswamy, V."	2013	PALAEO	686
+"Blanchet, C. L. T., Rik: Frank, Martin: Lorenzen, Janne: Reitz, Anja: Brown, Kevin: Feseker, Tomas: Brueckmann, Warner"	2013	EARTH PLANET SCI LETT	687
+"Wilson, D. J. P., Alexander M.: Galy, Albert: McCave, I. Nicholas"	2012	EARTH PLANET SCI LETT	688
+"Jiang, F. F., Martin: Li, Tiegang: Chen, Tian-Yu: Xu, Zhaokai: Li, Anchun"	2013	GEOCHEM GEOPHYS GEOSYST	689
+"Chen, T.-Y. L., Hong-Fei: Hu, Rong: Frank, Martin: Jiang, Shao-Yong"	2013	GEOCHEM GEOPHYS GEOSYST	690
+"Hoffmann, S. S. M., Jerry F.: Curry, William B.: Brown-Leger, L. Susan"	2013	NATURE	693
+"Hillaire-Marcel, C. M., Jenny: Not, Christelle: Poirier, AndrE"	2013	QUATERNARY SCIENCE REVIEWS	694
+"Yu, J. T., David J. R.: Rae, James W. B.: McCave, Nick I."	2013	PALEOCEANOGRAPHY	697
+"Tisserand, A. A. D., Trond M.: Waelbroeck, Claire: Gherardi, Jeanne- M.: Scao, Vincent: Fontanier, Christophe: Jorissen, Frans"	2013	GEOCHEM GEOPHYS GEOSYST	699
+"Raitzsch, M. H., B.: "	2013	GEOLOGY	700
+"Caetano, M. V., Carlos: Anes, Brbara: Raimundo, Joana: Drago, Teresa: Schimdt, Sabine: Nogueira, Marta: Oliveira, Anabela: Prego, Ricardo"	2013	DEEP SEA RESEARCH 	701
+"Cook, C. P. v. d. F., Tina: Williams, Trevor: Hemming, Sidney R.: Iwai, Masao: Kobayashi, Munemasa: Jimenez-Espejo, Francisco J.: Escutia, Carlota: Gonzalez, Jhon Jairo: Khim, Boo-Keun: McKay, Robert M.: Passchier, Sandra: Bohaty, Steven M.: Riesselman, Christina R.: Tauxe, Lisa: Sugisaki, Saiko: Galindo, Alberto Lopez: Patterson, Molly O.: Sangiorgi, Francesca: Pierce, Elizabeth L.: Brinkhuis, Henk: Klaus, Adam: Fehr, Annick: Bendle, James A. P.: Bijl, Peter K.: Carr, Stephanie A.: Dunbar, Robert B.: Flores, Jose Abel: Hayden, Travis G.: Katsuki, Kota: Kong, Gee Soo: Nakai, Mutsumi: Olney, Matthew P.: Pekar, Stephen F.: Pross, Jorg: Rohl, Ursula: Sakai, Toyosaburo: Shrivastava, Prakash K.: Stickley, Catherine E.: Tuo, Shouting: Welsh, Kevin: Yamane, Masako"	2013	NATURE GEOSCIENCE	702

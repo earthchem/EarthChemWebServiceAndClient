@@ -1,0 +1,3 @@
+<Directory ./>
+Order Allow,Deny
+</Directory>
