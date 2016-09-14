@@ -18,7 +18,7 @@ foreach ($pieChartData as $index => $value )
   if($index =='other') $otherCnt = $value;
   if($index =='null') $nullCnt = $value;
   if($index =='total') $totalCnt = $value;
-  if($index =='emailRatio') $emailr = intval($value*100);
+  //if($index =='emailRatio') $emailr = intval($value*100);
   if($index =='uniqueip') $ipCnt = $value;
 }
 
@@ -36,11 +36,11 @@ foreach ($pieChartData as $index => $value )
           ['Education',     <?= $eduCnt?>],
           ['Research',      <?= $resCnt ?>],
           ['Other',  <?= $otherCnt ?>],
-          ['Usage Purpose Not Reported', <?= $nullCnt ?>]
+          ['Not Reported', <?= $nullCnt ?>]
         ]);
 
         var options = {
-          title: 'PetDB Download Statistics since Oct. 2012\n* <?=$totalCnt?> integreated dataset downloads\n* <?=$emailr?>% users provided email information\n* <?=$ipCnt?> unique IP addresses',
+          title: 'PetDB Download Statistics since Oct. 2012\n* <?=$totalCnt?> integrated dataset downloads\n* <?=$ipCnt?> unique IP addresses',
           titleTextStyle: {'color':'#893d12'},
           is3D: true,
           colors: ['#e6693e', '#6a88c1', '#8ff7b6', '#f3b49f']
