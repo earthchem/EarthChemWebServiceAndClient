@@ -1,5 +1,5 @@
 <?php
-/* PetDBStatsPlot class will get PetDB Search statistics information from web service. Then create a plot using Google Graph Toolkit.
+/* PetDBStatsPlot class will get PetDB Search statistics information from web service or static files.
 *
 * @Author: Lulin Song created on July 18, 2016
 *
@@ -55,6 +55,60 @@ class PetDBStatsPlot extends WebClient
 	//	$idx=$idx+1;
 	//}
 	return json_encode($plotArray);
+    }
+
+    static public function getPieChartDataFromFile()
+    {
+        $myFile = fopen("petdb_download_feedback.csv","r");
+        $data=null;
+        $idx=0;
+        $myline = fgets($myFile); //skip first line which is column header
+        $IPavoid= array('129.236.40.238','129.236.6.17'  ,'128.118.52.28','129.236.40.190',
+                  '129.236.40.215','129.236.40.174','129.236.40.157','129.236.40.200',
+                  '129.236.6.198' ,'129.236.40.156'
+                 );
+        $EducationCnt=0;
+        $ResearchCnt=0;
+        $OtherCnt=0;
+        $EmailCnt=0;
+        $NullCnt=0;
+        $ipArr = array();
+        while(!feof($myFile))
+        {
+            $myline = fgets($myFile);
+            if(strlen($myline) <=0 ) break;
+            $linedata = explode(",",$myline);
+            $IPAddress = $linedata[1];
+            if( in_array($IPAddress,$IPavoid) ) continue;
+            if( !isset( $ipArr[$IPAddress] ) )
+              $ipArr[$IPAddress] = 1; 
+            else
+              $ipArr[$IPAddress] +=1; 
+
+            $purpose = $linedata[2];
+            if(preg_match("/Education/",$purpose)) $EducationCnt++;
+            else if(preg_match("/Research/",$purpose)) $ResearchCnt++;
+            else if(preg_match("/Other/",$purpose)) $OtherCnt++;
+            else $NullCnt++;
+            if( isset($linedata[3]) && strlen(trim($linedata[3])) != 0) $EmailCnt++;
+        }
+        fclose($myFile);
+        //echo "Education cnt:".$EducationCnt."\n";
+        //echo "Research cnt:".$ResearchCnt."\n";
+        //echo "Other cnt:".$OtherCnt."\n";
+        //echo "Null cnt:".$NullCnt."\n";
+        //echo "Email cnt:".$EmailCnt."\n";
+        $totalCnt = intval($EducationCnt) +intval($ResearchCnt)+intval($OtherCnt)+intval($NullCnt);
+        $EmailRatio = intval($EmailCnt)/intval($totalCnt);
+        $data = array( 'education'=>$EducationCnt,
+                       'research'=>$ResearchCnt,
+                       'other' => $OtherCnt,
+                       'null' => $NullCnt,
+                       'total' => $totalCnt,
+                       'emailRatio'=> $EmailRatio,
+                       'uniqueip' => sizeof($ipArr)
+                     );
+        return json_encode($data);
     }
 }
 

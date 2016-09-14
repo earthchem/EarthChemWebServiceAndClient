@@ -1,5 +1,5 @@
 <?php
-/* This script will draw PetDB Search usage graph on fly
+/* This script will draw PetDB Download statistics graph on fly
 * @Author: Lulin Song created on July 18, 2016
 *
 * $Id:$
