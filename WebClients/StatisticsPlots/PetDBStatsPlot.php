@@ -99,13 +99,13 @@ class PetDBStatsPlot extends WebClient
         //echo "Null cnt:".$NullCnt."\n";
         //echo "Email cnt:".$EmailCnt."\n";
         $totalCnt = intval($EducationCnt) +intval($ResearchCnt)+intval($OtherCnt)+intval($NullCnt);
-        $EmailRatio = intval($EmailCnt)/intval($totalCnt);
+        //$EmailRatio = intval($EmailCnt)/intval($totalCnt);
         $data = array( 'education'=>$EducationCnt,
                        'research'=>$ResearchCnt,
                        'other' => $OtherCnt,
                        'null' => $NullCnt,
                        'total' => $totalCnt,
-                       'emailRatio'=> $EmailRatio,
+                       //'emailRatio'=> $EmailRatio,
                        'uniqueip' => sizeof($ipArr)
                      );
         return json_encode($data);
