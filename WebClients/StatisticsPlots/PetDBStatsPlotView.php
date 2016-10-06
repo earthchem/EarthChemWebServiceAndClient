@@ -73,14 +73,14 @@ $plotData = json_decode($plotview->getPlotArray());
                         aggregationTarget: 'category',
                         legend: 'top'
                 };
-                var dom_chart= new google.visualization.AreaChart(document.getElementById('chart_div'));
+                var dom_chart= new google.visualization.AreaChart(document.getElementById('petdb_chart_div'));
                 dom_chart.draw(dom_data,dom_options);
       }
     </script>
     </head>
     <body>
     <div>
-         <div id="chart_div" style="width: 492px; height: 200px;" ></div>
+         <div id="petdb_chart_div" style="width: 492px; height: 200px;" ></div>
     </div>
     </body>
 </html>
