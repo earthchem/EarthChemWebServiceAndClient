@@ -110,6 +110,119 @@ class PetDBStatsPlot extends WebClient
                      );
         return json_encode($data);
     }
+
+
+    static public function getMonthlyIPAndDownLoadCountsFromFile()
+    {
+        $myFile = fopen("petdb_download_feedback.csv","r");
+        $data=null;
+        $idx=0;
+        $myline = fgets($myFile); //skip first line which is column header
+        $IPavoid= array('129.236.40.238','129.236.6.17'  ,'128.118.52.28','129.236.40.190',
+                  '129.236.40.215','129.236.40.174','129.236.40.157','129.236.40.200',
+                  '129.236.6.198' ,'129.236.40.156'
+                 );
+        $IPCnt=0;
+        $DownloadCnt=0;
+        $ipArr = array();
+        $statistics = array();
+        while(!feof($myFile))
+        {
+            $myline = fgets($myFile);
+            if(strlen($myline) <=0 ) break;
+            $linedata = explode(",",$myline);
+            $IPAddress = $linedata[1];
+
+            if( in_array($IPAddress,$IPavoid) ) continue;
+
+            $daystr = substr($linedata[0],0,10);
+            $dayarr = explode("/",$daystr);
+            $month = $dayarr[0].'-'.$dayarr[2];
+            if(isset($statistics[$month]) )
+            {
+                if(!in_array($IPAddress, $ipArr) ) 
+                {
+                    $ipArr[] = $IPAddress;
+                    $cnt = $statistics[$month]['IP'];
+                    $statistics[$month]['IP'] = intval($cnt) +1;;
+                }
+                $dcnt = $statistics[$month]['downloadCnt'];
+                $statistics[$month]['downloadCnt'] = intval($dcnt)+1;
+            }
+            else
+            {
+                $mymounthcnt = array('IP' => 1, 'downloadCnt'=>1);
+                $ipArr = array();
+                $ipArr[] = $IPAddress;
+                $statistics[$month] = $mymounthcnt;
+            }
+        }
+        fclose($myFile);
+        foreach($statistics as $month => $cnts)
+        {
+            echo "$month";
+            foreach($cnts as $key =>$value)
+            {
+                echo ",$value";
+            }
+            echo "\n";
+        }
+    }
+
+    static public function getDaylyIPAndDownLoadCountsFromFile()
+    {
+        $myFile = fopen("petdb_download_feedback.csv","r");
+        $data=null;
+        $idx=0;
+        $myline = fgets($myFile); //skip first line which is column header
+        $IPavoid= array('129.236.40.238','129.236.6.17'  ,'128.118.52.28','129.236.40.190',
+                  '129.236.40.215','129.236.40.174','129.236.40.157','129.236.40.200',
+                  '129.236.6.198' ,'129.236.40.156'
+                 );
+        $IPCnt=0;
+        $DownloadCnt=0;
+        $ipArr = array();
+        $statistics = array();
+        while(!feof($myFile))
+        {
+            $myline = fgets($myFile);
+            if(strlen($myline) <=0 ) break;
+            $linedata = explode(",",$myline);
+            $IPAddress = $linedata[1];
+
+            if( in_array($IPAddress,$IPavoid) ) continue;
+
+            $daystr = substr($linedata[0],0,10);
+            if(isset($statistics[$daystr]) )
+            {
+                if(!in_array($IPAddress, $ipArr) ) 
+                {
+                    $ipArr[] = $IPAddress;
+                    $cnt = $statistics[$daystr]['IP'];
+                    $statistics[$daystr]['IP'] = intval($cnt) +1;;
+                }
+                $dcnt = $statistics[$daystr]['downloadCnt'];
+                $statistics[$daystr]['downloadCnt'] = intval($dcnt)+1;
+            }
+            else
+            {
+                $mymounthcnt = array('IP' => 1, 'downloadCnt'=>1);
+                $ipArr = array();
+                $ipArr[] = $IPAddress;
+                $statistics[$daystr] = $mymounthcnt;
+            }
+        }
+        fclose($myFile);
+        foreach($statistics as $daystr => $cnts)
+        {
+            echo "$daystr";
+            foreach($cnts as $key =>$value)
+            {
+                echo ",$value";
+            }
+            echo "\n";
+        }
+    }
 }
 
 ?>
