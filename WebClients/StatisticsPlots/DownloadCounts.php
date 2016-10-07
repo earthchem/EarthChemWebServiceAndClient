@@ -11,5 +11,5 @@ $monthOneYearBefore = date('Y-m-d', $nextyear);
 $monthCurrentYear = date('Y-m-d', $currentTime);
 
 PetDBStatsPlot::getMonthlyIPAndDownloadCountsFromFile();
-PetDBStatsPlot::getDaylyIPAndDownloadCountsFromFile();
+//PetDBStatsPlot::getDaylyIPAndDownloadCountsFromFile();
 ?>
