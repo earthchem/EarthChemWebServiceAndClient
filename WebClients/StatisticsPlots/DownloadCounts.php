@@ -10,6 +10,8 @@ $currentTime  = mktime(0, 0, 0, date("m"),   date("d"),   date("Y") -0);
 $monthOneYearBefore = date('Y-m-d', $nextyear);
 $monthCurrentYear = date('Y-m-d', $currentTime);
 
-PetDBStatsPlot::getMonthlyIPAndDownloadCountsFromFile();
+$data = json_decode(PetDBStatsPlot::getPieChartDataFromFile());
+var_dump($data);
+//PetDBStatsPlot::getMonthlyIPAndDownloadCountsFromFile();
 //PetDBStatsPlot::getDaylyIPAndDownloadCountsFromFile();
 ?>

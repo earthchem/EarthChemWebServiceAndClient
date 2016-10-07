@@ -67,6 +67,8 @@ class PetDBStatsPlot extends WebClient
                   '129.236.40.215','129.236.40.174','129.236.40.157','129.236.40.200',
                   '129.236.6.198' ,'129.236.40.156'
                  );
+        $emailavoid= array("e109084@metu.edu.tr","song@ldeo.columbia.edu");
+
         $EducationCnt=0;
         $ResearchCnt=0;
         $OtherCnt=0;
@@ -79,6 +81,16 @@ class PetDBStatsPlot extends WebClient
             if(strlen($myline) <=0 ) break;
             $linedata = explode(",",$myline);
             $IPAddress = $linedata[1];
+            $email = null;
+            if( isset($linedata[3]) && strlen($linedata[3]) !=0 )
+              $email = trim($linedata[3]);
+            if( isset( $email ) && !empty( $email) )
+            {
+              if(in_array($email,$emailavoid) ) 
+              {
+                  continue; //Skip some hacking email.
+              }
+            }
             if( in_array($IPAddress,$IPavoid) ) continue;
             if( !isset( $ipArr[$IPAddress] ) )
               $ipArr[$IPAddress] = 1; 
