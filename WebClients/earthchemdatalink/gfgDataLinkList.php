@@ -15,7 +15,7 @@
 */
 
 require_once 'DatabaseHandler.php';
-require_once 'PostgreSQLDBHandler_test.php';
+require_once 'PostgreSQLDBHandler.php';
 require_once 'OracleDBHandler.php';
 require_once 'FormatConverter.php';
 include("inc/DBCreds.php");
