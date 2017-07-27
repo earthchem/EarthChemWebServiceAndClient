@@ -78,7 +78,7 @@ $plotData = json_decode( $plotview->getPlotArray() );
     </head>
     <body>
     <div>
-         <div id="chart_div" style="width:492px;height:200px;"></div>
+         <div id="chart_div" style="width:100%;height:200px;"></div>
     </div>
     </body>
 </html>
