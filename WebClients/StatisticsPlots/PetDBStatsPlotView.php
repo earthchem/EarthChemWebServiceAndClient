@@ -14,7 +14,7 @@ $currentTime  = mktime(0, 0, 0, date("m"),   date("d"),   date("Y") -0);
 $monthOneYearBefore = date('Y-m-d', $nextyear);
 $monthCurrentYear = date('Y-m-d', $currentTime);
 
-$plotview = new PetDBStatsPlot("http://isotope.ldeo.columbia.edu:7001/loadpetdb/search/download_stat.jsp",  
+$plotview = new PetDBStatsPlot("http://isotope.ldeo.columbia.edu:7001/petdbWeb/search/download_stat.jsp",  
                               array("start"=>"$monthOneYearBefore","end"=>"$monthCurrentYear") 
                             );
 
@@ -80,7 +80,7 @@ $plotData = json_decode($plotview->getPlotArray());
     </head>
     <body>
     <div>
-         <div id="petdb_chart_div" style="width: 492px; height: 200px;" ></div>
+         <div id="petdb_chart_div" style="width: 100%; height: 200px;" ></div>
     </div>
     </body>
 </html>
