@@ -5,6 +5,7 @@ include_once "ez_sql_core.php";
 //include_once "ez_sql_postgresql.php";
 include_once "ez_sql_oracle8_9.php";
 
-$db = new ezSQL_oracle8_9('petdb','r0cksr0ck','localhost/petdb','iiillll');
+//configure for whatever is needed for local db connection
+$db = new ezSQL_oracle8_9('dbname','password','dbpath','iiillll');
 
 ?>
