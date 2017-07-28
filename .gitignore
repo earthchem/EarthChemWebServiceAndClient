@@ -1,3 +1,5 @@
 WebClients/earthchemdatalink/inc
 WebClients/earthchemdatalink/inc/*.php
 WebServices/petdbexport/db.php
+WebServices/seddbexport/loaddb.php
+WebServices/petdbexport/loaddb.php
