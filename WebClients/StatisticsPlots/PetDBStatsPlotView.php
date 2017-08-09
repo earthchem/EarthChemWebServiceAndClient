@@ -7,7 +7,7 @@
 * $LastChangedBy:$
 * $LastChangedRevision:$
 */
-require_once 'PetDBStatsPlotTest.php';
+require_once 'PetDBStatsPlot.php';
 date_default_timezone_set('America/New_York');
 $startTime = "2017-06-01";
 $firstDayThisMonth = date('Y-n-j', strtotime("first day of this month"));
