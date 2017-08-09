@@ -39,22 +39,28 @@ class PetDBStatsPlot extends WebClient
         $plotArray = $this->getDataFromFile();
         $s = sizeof($plotArray); 
         $ti = $plotArray[(intval($s)-1) ];
-
+        $tt = explode(",",$ti[0]);
+        $lastyear = $tt[0];
+        $lastmonth = $tt[1];
         //
         //Turn on the following once we have data in the database.
         //
-	//$xmldata=$this->getSimpleXMLElement();
-	//$idx=$s;
-	//foreach( $xmldata->RECORD as $row )
-	//{
-		//if( $idx == 13 ) break;
-	//	$year= $row->YEAR;
-	//	$month = $row->MONTH;
-	//	$dateStr = $year.",".$month;
-	//	$plotArray[$idx]= array("$dateStr",intval("$row->MONTHLY_DOWNLOAD"),intval("$row->UNIQUE_IP"));
-	//	$idx=$idx+1;
-	//}
-	return json_encode($plotArray);
+	$xmldata=$this->getSimpleXMLElement();
+	$idx=0;
+        $plotArray2 = null;
+	foreach( $xmldata->RECORD as $row )
+        {	
+		$year= $row->YEAR;
+                if( intval($year) < intval($lastyear)) continue;
+		$month = $row->MONTH;
+                if( intval($month) <= intval($lastmonth)) continue;
+		$dateStr = $year.",".$month;
+		$plotArray2[$idx]= array("$dateStr",intval("$row->UNIQUE_IP"), intval("$row->MONTHLY_DOWNLOAD"));
+		$idx=$idx+1;
+	}
+
+	$arr = array_merge($plotArray,$plotArray2);
+	return json_encode($arr);
     }
 
     static public function getPieChartDataFromFile()

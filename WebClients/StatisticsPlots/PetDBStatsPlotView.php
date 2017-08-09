@@ -7,15 +7,13 @@
 * $LastChangedBy:$
 * $LastChangedRevision:$
 */
-require_once 'PetDBStatsPlot.php';
+require_once 'PetDBStatsPlotTest.php';
 date_default_timezone_set('America/New_York');
-$nextyear  = mktime(0, 0, 0, date("m"),   date("d"),   date("Y")-1);
-$currentTime  = mktime(0, 0, 0, date("m"),   date("d"),   date("Y") -0);
-$monthOneYearBefore = date('Y-m-d', $nextyear);
-$monthCurrentYear = date('Y-m-d', $currentTime);
+$startTime = "2017-06-01";
+$firstDayThisMonth = date('Y-n-j', strtotime("first day of this month"));
 
 $plotview = new PetDBStatsPlot("http://isotope.ldeo.columbia.edu:7001/petdbWeb/search/download_stat.jsp",  
-                              array("start"=>"$monthOneYearBefore","end"=>"$monthCurrentYear") 
+                              array("start"=>"$startTime","end"=>"$firstDayThisMonth") 
                             );
 
 $plotData = json_decode($plotview->getPlotArray());
