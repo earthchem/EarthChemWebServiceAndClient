@@ -206,7 +206,7 @@ class ECLStatsPlot extends WebClient
 
     static public function getDaylyIPAndDownLoadCountsFromFile()
     {
-        $myFile = fopen("petdb_download_feedback.csv","r");
+        $myFile = fopen("earthchem_library_downloads_20171010.csv","r");
         $data=null;
         $idx=0;
         $myline = fgets($myFile); //skip first line which is column header
