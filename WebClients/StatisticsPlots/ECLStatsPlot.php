@@ -145,7 +145,7 @@ class ECLStatsPlot extends WebClient
                   '129.236.6.198' ,'129.236.40.156'
                  );
 
-        $emailavoid= array("e109084@metu.edu.tr","song@ldeo.columbia.edu");
+        $emailavoid= array("e109084@metu.edu.tr","song@ldeo.columbia.edu","lhsu@ldeo.columbia.edu","annika@ldeo.columbia.edu","nshane@ldeo.columbia.edu","mcarter@ldeo.columbia.edu","bhchen@ldeo.columbia.edu");
 
         $IPCnt=0;
         $DownloadCnt=0;
@@ -206,7 +206,7 @@ class ECLStatsPlot extends WebClient
 
     static public function getDaylyIPAndDownLoadCountsFromFile()
     {
-        $myFile = fopen("petdb_download_feedback.csv","r");
+        $myFile = fopen("earthchem_library_downloads_20171010.csv","r");
         $data=null;
         $idx=0;
         $myline = fgets($myFile); //skip first line which is column header
@@ -257,6 +257,57 @@ class ECLStatsPlot extends WebClient
             }
             echo "\n";
         }
+    }
+
+    static public function assembleSQLFromFile()
+    {
+        $myFile = fopen("earthchem_library_downloads_20171010.csv","r");
+        $data=null;
+        $idx=0;
+        $myline = fgets($myFile); //skip first line which is column header
+        $IPavoid= array('129.236.40.238','129.236.6.17'  ,'128.118.52.28','129.236.40.190',
+                  '129.236.40.215','129.236.40.174','129.236.40.157','129.236.40.200',
+                  '129.236.6.198' ,'129.236.40.156'
+                 );
+        $IPCnt=0;
+        $DownloadCnt=0;
+        $ipArr = array();
+        $emailavoid= array("e109084@metu.edu.tr","song@ldeo.columbia.edu","lhsu@ldeo.columbia.edu","annika@ldeo.columbia.edu","nshane@ldeo.columbia.edu","mcarter@ldeo.columbia.edu","bhchen@ldeo.columbia.edu");
+        while(!feof($myFile))
+        {
+          $query = "INSERT INTO download_stats2 (submission_id,download_date,download_ip,email,use_field) VALUES (";
+            $myline = fgets($myFile);
+            if(strlen($myline) <=0 ) break;
+            $linedata = explode(",",$myline);
+            $IPAddress = $linedata[2];
+            $email = null;
+            if( isset($linedata[3]) && strlen($linedata[3]) !=0 )
+              $email = trim($linedata[3]);
+            if( isset( $email ) && !empty( $email) )
+            {
+              if(in_array($email,$emailavoid) )
+              {
+                  continue; //Skip some hacking or internal email.
+              }
+            }
+
+            if( in_array($IPAddress,$IPavoid) ) continue;
+            $sid = $linedata[0];
+            $datet = $linedata[1];
+            $use = $linedata[4];
+            if( !isset($sid) ) $query .="null,";
+            else if( strlen($sid)==0 ) $query .="null,";
+            else    $query .=$sid.",";
+            $query .="to_date('".$datet."','mm/dd/yyyy-h:m'),";
+            $query .="'".$IPAddress."',";
+            if(!isset($email)) $query .="'',";
+            else $query .="'".$email."',";
+            if(!isset($use)) $query .="''";
+            else $query .="'".trim($use)."'";
+            $query .=");";
+            echo $query."\n";
+        }
+        fclose($myFile);
     }
 }
 
