@@ -13,7 +13,7 @@ date_default_timezone_set('America/New_York');
 $startTime = "2017-06-01";
 $firstDayThisMonth = date('Y-n-j', strtotime("first day of this month"));
 
-$plotview = new ECLStatsPlot("http://isotope.ldeo.columbia.edu:7001/petdbWeb/search/download_stat.jsp",  
+$plotview = new ECLStatsPlot("http://grl.geoinfogeochem.org/download_stat.jsp",  
                               array("start"=>"$startTime","end"=>"$firstDayThisMonth") 
                             );
 
@@ -72,14 +72,14 @@ $plotData = json_decode($plotview->getPlotArray());
                         aggregationTarget: 'category',
                         legend: 'top'
                 };
-                var dom_chart= new google.visualization.AreaChart(document.getElementById('petdb_chart_div'));
+                var dom_chart= new google.visualization.AreaChart(document.getElementById('ecl_chart_div'));
                 dom_chart.draw(dom_data,dom_options);
       }
     </script>
     </head>
     <body>
     <div>
-         <div id="petdb_chart_div" style="width: 100%; height: 200px;" ></div>
+         <div id="ecl_chart_div" style="width: 100%; height: 200px;" ></div>
     </div>
     </body>
 </html>
