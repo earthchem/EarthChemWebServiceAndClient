@@ -267,7 +267,7 @@ class ECLStatsPlot extends WebClient
         $myline = fgets($myFile); //skip first line which is column header
         $IPavoid= array('129.236.40.238','129.236.6.17'  ,'128.118.52.28','129.236.40.190',
                   '129.236.40.215','129.236.40.174','129.236.40.157','129.236.40.200',
-                  '129.236.6.198' ,'129.236.40.156'
+                  '129.236.6.198' ,'129.236.40.156','129.236.24.121'
                  );
         $IPCnt=0;
         $DownloadCnt=0;
