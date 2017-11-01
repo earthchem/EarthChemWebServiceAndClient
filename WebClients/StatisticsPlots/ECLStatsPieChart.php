@@ -43,7 +43,7 @@ foreach ($pieChartData as $index => $value )
         ]);
 
         var options = {
-          title: 'ECL Download Statistics (Apr 19, 2012 to Oct 10, 2017)\n* <?=$totalCnt?> dataset downloads\n* <?=$ipCnt?> unique IP addresses',
+          title: 'ECL Download Statistics (Apr 19, 2012 to Oct 31, 2017)\n* <?=$totalCnt?> dataset downloads\n* <?=$ipCnt?> unique IP addresses',
           titleTextStyle: {'color':'#893d12'},
           is3D: true,
           colors: ['#e6693e', '#6a88c1', '#8ff7b6', '#f3b49f','#835C3B']
