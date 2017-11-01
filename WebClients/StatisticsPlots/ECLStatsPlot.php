@@ -75,9 +75,9 @@ class ECLStatsPlot extends WebClient
         $myline = fgets($myFile); //skip first line which is column header
         $IPavoid= array('129.236.40.238','129.236.6.17'  ,'128.118.52.28','129.236.40.190',
                   '129.236.40.215','129.236.40.174','129.236.40.157','129.236.40.200',
-                  '129.236.6.198' ,'129.236.40.156'
+                  '129.236.6.198' ,'129.236.40.156','129.236.24.121'
                  );
-        $emailavoid= array("e109084@metu.edu.tr","song@ldeo.columbia.edu","lhsu@ldeo.columbia.edu","annika@ldeo.columbia.edu","nshane@ldeo.columbia.edu","mcarter@ldeo.columbia.edu","bhchen@ldeo.columbia.edu");
+        $emailavoid= array("e109084@metu.edu.tr","song@ldeo.columbia.edu","lhsu@ldeo.columbia.edu","annika@ldeo.columbia.edu","nshane@ldeo.columbia.edu","mcarter@ldeo.columbia.edu","bhchen@ldeo.columbia.edu","megancarterthomas@gmail.com");
 
         $SubmissionCnt=0;
         $EducationCnt=0;
@@ -136,16 +136,16 @@ class ECLStatsPlot extends WebClient
 
     static public function getMonthlyIPAndDownLoadCountsFromFile()
     {
-        $myFile = fopen("earthchem_library_downloads_20171010.csv","r");
+        $myFile = fopen("earthchem_library_downloads.csv","r");
         $data=null;
         $idx=0;
         $myline = fgets($myFile); //skip first line which is column header
         $IPavoid= array('129.236.40.238','129.236.6.17'  ,'128.118.52.28','129.236.40.190',
                   '129.236.40.215','129.236.40.174','129.236.40.157','129.236.40.200',
-                  '129.236.6.198' ,'129.236.40.156'
+                  '129.236.6.198' ,'129.236.40.156','129.236.24.121'
                  );
 
-        $emailavoid= array("e109084@metu.edu.tr","song@ldeo.columbia.edu","lhsu@ldeo.columbia.edu","annika@ldeo.columbia.edu","nshane@ldeo.columbia.edu","mcarter@ldeo.columbia.edu","bhchen@ldeo.columbia.edu");
+        $emailavoid= array("e109084@metu.edu.tr","song@ldeo.columbia.edu","lhsu@ldeo.columbia.edu","annika@ldeo.columbia.edu","nshane@ldeo.columbia.edu","mcarter@ldeo.columbia.edu","bhchen@ldeo.columbia.edu","megancarterthomas@gmail.com");
 
         $IPCnt=0;
         $DownloadCnt=0;
@@ -212,7 +212,7 @@ class ECLStatsPlot extends WebClient
         $myline = fgets($myFile); //skip first line which is column header
         $IPavoid= array('129.236.40.238','129.236.6.17'  ,'128.118.52.28','129.236.40.190',
                   '129.236.40.215','129.236.40.174','129.236.40.157','129.236.40.200',
-                  '129.236.6.198' ,'129.236.40.156'
+                  '129.236.6.198' ,'129.236.40.156','129.236.24.121'
                  );
         $IPCnt=0;
         $DownloadCnt=0;
@@ -261,7 +261,7 @@ class ECLStatsPlot extends WebClient
 
     static public function assembleSQLFromFile()
     {
-        $myFile = fopen("earthchem_library_downloads_20171010.csv","r");
+        $myFile = fopen("earthchem_library_downloads.csv","r");
         $data=null;
         $idx=0;
         $myline = fgets($myFile); //skip first line which is column header
@@ -272,7 +272,7 @@ class ECLStatsPlot extends WebClient
         $IPCnt=0;
         $DownloadCnt=0;
         $ipArr = array();
-        $emailavoid= array("e109084@metu.edu.tr","song@ldeo.columbia.edu","lhsu@ldeo.columbia.edu","annika@ldeo.columbia.edu","nshane@ldeo.columbia.edu","mcarter@ldeo.columbia.edu","bhchen@ldeo.columbia.edu");
+        $emailavoid= array("e109084@metu.edu.tr","song@ldeo.columbia.edu","lhsu@ldeo.columbia.edu","annika@ldeo.columbia.edu","nshane@ldeo.columbia.edu","mcarter@ldeo.columbia.edu","bhchen@ldeo.columbia.edu","megancarterthomas@gmail.com");
         while(!feof($myFile))
         {
           $query = "INSERT INTO download_stats2 (submission_id,download_date,download_ip,email,use_field) VALUES (";
