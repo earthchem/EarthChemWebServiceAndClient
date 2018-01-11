@@ -43,10 +43,7 @@ class ECLStatsPlot extends WebClient
         $tt = explode(",",$ti[0]);
         $lastyear = $tt[0];
         $lastmonth = $tt[1];
-        //
-        //Turn on the following once we have data in the database.
-        //
-        /*{
+
 	$xmldata=$this->getSimpleXMLElement();
 	$idx=0;
         $plotArray2 = null;
@@ -62,8 +59,7 @@ class ECLStatsPlot extends WebClient
 	}
 
 	$arr = array_merge($plotArray,$plotArray2);
-        }*/
-	$arr = $plotArray;
+
 	return json_encode($arr);
     }
 
@@ -275,7 +271,7 @@ class ECLStatsPlot extends WebClient
         $emailavoid= array("e109084@metu.edu.tr","song@ldeo.columbia.edu","lhsu@ldeo.columbia.edu","annika@ldeo.columbia.edu","nshane@ldeo.columbia.edu","mcarter@ldeo.columbia.edu","bhchen@ldeo.columbia.edu","megancarterthomas@gmail.com");
         while(!feof($myFile))
         {
-          $query = "INSERT INTO download_stats2 (submission_id,download_date,download_ip,email,use_field) VALUES (";
+          $query = "INSERT INTO download_stats (submission_id,download_date,download_ip,email,use_field) VALUES (";
             $myline = fgets($myFile);
             if(strlen($myline) <=0 ) break;
             $linedata = explode(",",$myline);

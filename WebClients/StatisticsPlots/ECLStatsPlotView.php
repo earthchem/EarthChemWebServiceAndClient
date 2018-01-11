@@ -13,7 +13,7 @@ date_default_timezone_set('America/New_York');
 $startTime = "2017-06-01";
 $firstDayThisMonth = date('Y-n-j', strtotime("first day of this month"));
 
-$plotview = new ECLStatsPlot("http://grl.geoinfogeochem.org/download_stat.jsp",  
+$plotview = new ECLStatsPlot("http://grl.geoinfogeochem.org/download_stat.php",  
                               array("start"=>"$startTime","end"=>"$firstDayThisMonth") 
                             );
 
@@ -41,6 +41,22 @@ $plotData = json_decode($plotview->getPlotArray());
                  {
                      $dateStrArr = explode(",",$row[0]);
                      $dateStr = $dateStrArr[0].",".(intval($dateStrArr[1])-1);
+                     if(intval($dateStrArr[1]) == 2 )
+                       $dateStr .=",28";
+                     else if(intval($dateStrArr[1]) %2 == 0 ) //Odd number of month
+                     {
+                       if(intval($dateStrArr[1]) <=7 )
+                         $dateStr .=",30";
+                       else
+                         $dateStr .=",31";
+                     }
+                     else
+                     {
+                       if(intval($dateStrArr[1]) <= 7 )
+                         $dateStr .=",31";
+                       else
+                         $dateStr .=",30";
+                     }
                  ?>
                  dom_data.setCell( <?=$idx?>,0, new Date( <?= $dateStr ?> ) );
                  dom_data.setCell( <?=$idx?>,1, <?= $row[1] ?> );

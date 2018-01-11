@@ -17,16 +17,22 @@ class ECPStatsPlot extends WebClient
 	{
 		$xmldata=$this->getSimpleXMLElement();
 		$idx=0;
-		//$plotArray[$idx++]=array('Year', 'Unique data downloads', 'Unique IP addresses');
+                $firstDayThisMonth = strtotime("first day of this month");
+                date_default_timezone_set('UTC');
+                $timeoftoday = time();
 		foreach( $xmldata->row as $row )
 		{
-			//if( $idx == 13 ) break;
-			$dateSubStrs= explode("-", $row->start_date);
-			$dateStr = $dateSubStrs[0].','.$dateSubStrs[1];
-			$plotArray[$idx]= array("$dateStr",intval("$row->unique_downloads"),intval("$row->unique_ips"));
-			$idx=$idx+1;
+		    $dateSubStrs= explode("-", $row->start_date);
+		    $enddateSubStrs= explode("-", $row->end_date);
+                    $enddateYear = $enddateSubStrs[0];
+                    $enddateMon = $enddateSubStrs[1];
+                    $enddateDay = $enddateSubStrs[2];
+                    $enddatetime = mktime(0,0,0,$enddateMon, $enddateDay,$enddateYear);
+                    if( $enddatetime > $timeoftoday ) continue; //we skip imcomplete month
+		    $dateStr = $dateSubStrs[0].','.$dateSubStrs[1];
+		    $plotArray[$idx]= array("$dateStr",intval("$row->unique_downloads"),intval("$row->unique_ips"));
+		    $idx=$idx+1;
 		}
-//var_dump( $plotArray );
 		return json_encode($plotArray);
 	}
 }
