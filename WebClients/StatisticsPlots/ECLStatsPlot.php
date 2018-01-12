@@ -305,6 +305,32 @@ class ECLStatsPlot extends WebClient
         }
         fclose($myFile);
     }
+
+
+    /* Retrieve data needed for pie chart from web service and static file */
+    static public function getPieChartData()
+    {
+        //$url = "http://grl-dev.geoinfogeochem.org/download_purpose_stats.php";
+        $url = "http://ecl.local/download_purpose_stats.php";
+        $xml=file_get_contents($url);
+        $data = new SimpleXMLElement($xml);
+
+        $plotArray = array();
+        $nullCnt=0;
+        foreach( $data->RECORD as $row )
+        {
+          $purpose = $row->PURPOSE;
+          $cnt  = $row->PURPOSE_CNT;
+          if( !isset($purpose) )
+              $nullCnt += intval($cnt);
+          else if( $purpose == "No Reply" )
+               $nullCnt += intval($cnt);
+          else
+              $plotArray["$purpose"] = "$cnt";
+        }
+        $plotArray["null"] = "$nullCnt";
+        return json_encode($plotArray);
+    }
 }
 
 ?>
