@@ -8,9 +8,10 @@ date_default_timezone_set('America/New_York');
 $nextyear  = mktime(0, 0, 0, date("m"),   date("d"),   date("Y")-1);
 $currentTime  = mktime(0, 0, 0, date("m"),   date("d"),   date("Y") -0);
 $monthOneYearBefore = date('Y-m-d', $nextyear);
-$monthCurrentYear = date('Y-m-d', $currentTime);
+$monthCurrentYear = date('M d, Y', $currentTime);
 
-$pieChartData = json_decode( PetDBStatsPlot::getPieChartDataFromFile());
+$pieChartData = json_decode( PetDBStatsPlot::getPieChartData());
+
 foreach ($pieChartData as $index => $value )
 {
   if($index =='education') $eduCnt = $value;
@@ -40,7 +41,7 @@ foreach ($pieChartData as $index => $value )
         ]);
 
         var options = {
-          title: 'PetDB Download Statistics (Oct 12, 2012 to Oct 30, 2017)\n* <?=$totalCnt?> integrated dataset downloads\n* <?=$ipCnt?> unique IP addresses',
+          title: 'PetDB Download Statistics (Oct 12, 2012 to <?= $monthCurrentYear ?>)\n* <?=$totalCnt?> integrated dataset downloads\n* <?=$ipCnt?> unique IP addresses',
           titleTextStyle: {'color':'#893d12'},
           is3D: true,
           colors: ['#e6693e', '#6a88c1', '#8ff7b6', '#f3b49f']

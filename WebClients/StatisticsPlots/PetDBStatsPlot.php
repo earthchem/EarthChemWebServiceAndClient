@@ -63,6 +63,37 @@ class PetDBStatsPlot extends WebClient
 	return json_encode($arr);
     }
 
+    static public function getPieChartData()
+    {
+        $plotArray1 = PetDBStatsPlot::getPieChartDataFromFile();
+        
+        date_default_timezone_set('America/New_York');
+        $currentTime  = mktime(0, 0, 0, date("m"),   date("d"),   date("Y") -0);
+        $today = date('Y-m-d', $currentTime);
+
+        $url = "http://www.earthchem.org/petdbWeb/search/download_purpose_stat.jsp?start=2017-11-01&end=".$today;
+        $xml=file_get_contents($url);
+        $data = new SimpleXMLElement($xml);
+
+        $plotArray2 = array();
+	foreach( $data->RECORD as $row )
+        {	
+          $purpose = $row->PURPOSE;
+          $cnt  = $row->PURPOSE_CNT;
+          $plotArray2["$purpose"] = "$cnt";
+        }
+        $plotArray = array();
+        foreach ($plotArray1 as $key => $val)
+        {
+            if(isset($plotArray2["$key"]))
+                $plotArray["$key"] = intval($plotArray1["$key"]) + intval($plotArray2["$key"]);
+            else 
+                $plotArray["$key"] = intval($plotArray1["$key"]);
+        }
+
+        return json_encode($plotArray);
+    }
+
     static public function getPieChartDataFromFile()
     {
         $myFile = fopen("petdb_download_feedback.csv","r");
@@ -111,11 +142,6 @@ class PetDBStatsPlot extends WebClient
             if( isset($linedata[3]) && strlen(trim($linedata[3])) != 0) $EmailCnt++;
         }
         fclose($myFile);
-        //echo "Education cnt:".$EducationCnt."\n";
-        //echo "Research cnt:".$ResearchCnt."\n";
-        //echo "Other cnt:".$OtherCnt."\n";
-        //echo "Null cnt:".$NullCnt."\n";
-        //echo "Email cnt:".$EmailCnt."\n";
         $totalCnt = intval($EducationCnt) +intval($ResearchCnt)+intval($OtherCnt)+intval($NullCnt);
         //$EmailRatio = intval($EmailCnt)/intval($totalCnt);
         $data = array( 'education'=>$EducationCnt,
@@ -126,7 +152,7 @@ class PetDBStatsPlot extends WebClient
                        //'emailRatio'=> $EmailRatio,
                        'uniqueip' => sizeof($ipArr)
                      );
-        return json_encode($data);
+        return $data;
     }
 
 
