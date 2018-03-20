@@ -310,7 +310,7 @@ class ECLStatsPlot extends WebClient
     /* Retrieve data needed for pie chart from web service and static file */
     static public function getPieChartData()
     {
-        $url = "http://grl.geoinfogeochem.org/download_purpose_stats.php";
+        $url = "http://ecl.earthchem.org/download_purpose_stats.php";
         $xml=file_get_contents($url);
         $data = new SimpleXMLElement($xml);
 

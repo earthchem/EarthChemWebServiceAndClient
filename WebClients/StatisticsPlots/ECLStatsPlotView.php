@@ -13,7 +13,7 @@ date_default_timezone_set('America/New_York');
 $startTime = "2017-06-01";
 $firstDayThisMonth = date('Y-n-j', strtotime("first day of this month"));
 
-$plotview = new ECLStatsPlot("http://grl.geoinfogeochem.org/download_stat.php",  
+$plotview = new ECLStatsPlot("http://ecl.earthchem.org/download_stat.php",  
                               array("start"=>"$startTime","end"=>"$firstDayThisMonth") 
                             );
 
