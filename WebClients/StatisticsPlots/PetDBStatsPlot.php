@@ -53,7 +53,7 @@ class PetDBStatsPlot extends WebClient
 		$year= $row->YEAR;
                 if( intval($year) < intval($lastyear)) continue;
 		$month = $row->MONTH;
-                if( intval($month) <= intval($lastmonth)) continue;
+                if( (intval($year) == intval($lastyear)) && intval($month) <= intval($lastmonth)) continue;
 		$dateStr = $year.",".$month;
 		$plotArray2[$idx]= array("$dateStr",intval("$row->UNIQUE_IP"), intval("$row->MONTHLY_DOWNLOAD"));
 		$idx=$idx+1;
