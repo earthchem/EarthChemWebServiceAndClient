@@ -71,7 +71,7 @@ $plotData = json_decode($plotview->getPlotArray());
                         selectionMode: 'multiple',
                         isStacked: false,
                         areaOpacity:'0.4',
-                        hAxis: {title: 'Year',
+                        hAxis: {title: 'Month',
                                 gridlines:{count: '6'}
                                },
                         vAxes: { 
