@@ -1,8 +1,8 @@
 <?php
 /* It is a REST web service. It will search awardtracker database to get data collection and its detail information link back. It will get medata from four database related to the value number retrieved from awardtracker database. Final data will be returned as JSON or HMTL.
  * Usage: 
- *       http://app.iedadata.org/ws/gfgDataLinkList.php?num=8888877&format=json
- *       http://app.iedadata.org/ws/gfgDataLinkList.php?num=8888877&format=html
+ *       http://submit.geoinfogeochem.org/ws/gfgDataLinkList.php?num=8888877&format=json
+ *       http://submit.geoinfogeochem.org/ws/gfgDataLinkList.php?num=8888877&format=html
  *       
  * num is award tracker number and format is optional. Default format is HTML.
  * 
@@ -23,7 +23,7 @@ include("inc/DBCreds.php");
 $award_num = isset($_GET['num']) ? $_GET['num'] : -1; //-1 is the default
 if($award_num==-1) 
 {  echo 'Please specify award number (eg. num=0819368).</br>
-         http://app.iedadata.org/ws/gfgDataLinkList.php?num=0819368';
+         http://submit.geoinfogeochem.org/ws/gfgDataLinkList.php?num=0819368&format=json';
    exit;
 }
 
