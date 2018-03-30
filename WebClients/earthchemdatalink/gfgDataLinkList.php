@@ -1,8 +1,8 @@
 <?php
 /* It is a REST web service. It will search awardtracker database to get data collection and its detail information link back. It will get medata from four database related to the value number retrieved from awardtracker database. Final data will be returned as JSON or HMTL.
  * Usage: 
- *       http://submit.geoinfogeochem.org/ws/gfgDataLinkList.php?num=8888877&format=json
- *       http://submit.geoinfogeochem.org/ws/gfgDataLinkList.php?num=8888877&format=html
+ *       http://app.iedadata.org/ws/gfgDataLinkList.php?num=8888877&format=json
+ *       http://app.iedadata.org/ws/gfgDataLinkList.php?num=8888877&format=html
  *       
  * num is award tracker number and format is optional. Default format is HTML.
  * 
@@ -23,7 +23,7 @@ include("inc/DBCreds.php");
 $award_num = isset($_GET['num']) ? $_GET['num'] : -1; //-1 is the default
 if($award_num==-1) 
 {  echo 'Please specify award number (eg. num=0819368).</br>
-         http://submit.geoinfogeochem.org/ws/gfgDataLinkList.php?num=0819368&format=json';
+         http://app.iedadata.org/ws/gfgDataLinkList.php?num=0819368';
    exit;
 }
 
@@ -50,7 +50,6 @@ $refData = array(
                    "EarthChem" => array(),
                    "PetDB"     => array(),
                    "SedDB"     => array(),
-                   "VentDB"    => array(),
                    "SESAR"     => array()              
 );
 
@@ -89,14 +88,6 @@ while ($row = pg_fetch_array($result)) {
 		}
 		$refData["SedDB"][$seddbIdx++]=$row["cnum"];
 	}
-	if($collectionId == 5) //earthchem
-	{
-		if(!isset($uriArray["VentDB"]))
-		{
-			$uriArray["VentDB"] = array( "cname" => $row["cname"],"curl"  => $row["curl"]);
-		}
-		$refData["VentDB"][$ventdbIdx++]=$row["cnum"];
-	}
 	if($collectionId == 6) //earthchem
 	{
 		if(!isset($uriArray["SESAR"]))
@@ -118,7 +109,6 @@ $rntData = array(
                    "EarthChem" => array(),
                    "PetDB"     => array(),
                    "SedDB"     => array(),
-                   "VentDB"    => array(),
                    "SESAR"     => array()              
 );
 
@@ -141,13 +131,6 @@ if($seddbIdx > 0 )
   $sedCount = $sedHandle->getInformationFromSedDB($refData["SedDB"], $rntData["SedDB"],$uriArray["SedDB"]['curl'],$uriArray["SedDB"]['cname']);
 else 
   $sedCount=0;
-
-//-------------------------- Get Author and dataset information from VentDB database
-$ventHandle = new OracleDBHandler(SERVERNAME1, PORT3,DBNAME5, DBLOGIN5, DBPASSWORD3);
-if($ventdbIdx > 0 )
-  $ventCount = $ventHandle->getInformationFromVentDB($refData["VentDB"], $rntData["VentDB"],$uriArray["VentDB"]['curl'],$uriArray["VentDB"]['cname']);
-else 
-  $ventCount=0;
 
 //-------------------------- Get dataset information from SESAR database
 $sesarHandle = new PostgreSQLDBHandler(SERVERNAME2, PORT4,DBNAME6, DBLOGIN6, DBPASSWORD4);
@@ -178,11 +161,6 @@ if($request_format == 'json') {
       if( $petCount !=0 || $ecCount !=0 ) echo ",";
       FormatConverter::printJSON($rntData["SedDB"]);
     }
-    if($ventCount !=0 )
-    {
-      if($sedCount !=0 ||  $petCount !=0 || $ecCount !=0) echo ",";
-      FormatConverter::printJSON($rntData["VentDB"]);
-    }
     if($sesarCount !=0 )
     {
     	if($ventCount !=0 || $sedCount !=0 ||  $petCount !=0 || $ecCount !=0) echo ",";
@@ -203,7 +181,6 @@ else if($request_format == 'html') {
 	FormatConverter::printHTML($rntData["EarthChem"]);
     FormatConverter::printHTML($rntData["PetDB"]);
     FormatConverter::printHTML($rntData["SedDB"]);
-    FormatConverter::printHTML($rntData["VentDB"]);
     FormatConverter::printHTML($rntData["SESAR"]);
     
 	echo '</tr>';
