@@ -15,14 +15,13 @@ class OracleDBHandler extends DatabaseHandler{
 	  if( $this->conn == null ) 
 	  {
 	      /* connect to Oracle database */
-	      $db = "(DESCRIPTION=(ADDRESS_LIST = (ADDRESS = (PROTOCOL = TCP)(HOST = ".$this->dbhostname.")(PORT = ".$this->dbportnumber.")))(CONNECT_DATA=(SID=".$this->dbname.")))";
-	    	  
+	      $db = "localhost/".$this->dbname;
 	      $this->conn = oci_connect($this->dbloginname,$this->dbpassword,$db);
 	  }
 	 
 	  if (!$this->conn) {
 	    $m = oci_error();
-	    echo $m['message'], "\n";
+            trigger_error(htmlentities($m['message'], ENT_QUOTES), E_USER_ERROR);
 	    return 0;
 	  }
 	}
