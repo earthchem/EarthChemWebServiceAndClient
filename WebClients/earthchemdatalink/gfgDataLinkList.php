@@ -50,7 +50,6 @@ $refData = array(
                    "EarthChem" => array(),
                    "PetDB"     => array(),
                    "SedDB"     => array(),
-                   "VentDB"    => array(),
                    "SESAR"     => array()              
 );
 
@@ -89,14 +88,6 @@ while ($row = pg_fetch_array($result)) {
 		}
 		$refData["SedDB"][$seddbIdx++]=$row["cnum"];
 	}
-	if($collectionId == 5) //earthchem
-	{
-		if(!isset($uriArray["VentDB"]))
-		{
-			$uriArray["VentDB"] = array( "cname" => $row["cname"],"curl"  => $row["curl"]);
-		}
-		$refData["VentDB"][$ventdbIdx++]=$row["cnum"];
-	}
 	if($collectionId == 6) //earthchem
 	{
 		if(!isset($uriArray["SESAR"]))
@@ -118,7 +109,6 @@ $rntData = array(
                    "EarthChem" => array(),
                    "PetDB"     => array(),
                    "SedDB"     => array(),
-                   "VentDB"    => array(),
                    "SESAR"     => array()              
 );
 
@@ -178,11 +168,6 @@ if($request_format == 'json') {
       if( $petCount !=0 || $ecCount !=0 ) echo ",";
       FormatConverter::printJSON($rntData["SedDB"]);
     }
-    if($ventCount !=0 )
-    {
-      if($sedCount !=0 ||  $petCount !=0 || $ecCount !=0) echo ",";
-      FormatConverter::printJSON($rntData["VentDB"]);
-    }
     if($sesarCount !=0 )
     {
     	if($ventCount !=0 || $sedCount !=0 ||  $petCount !=0 || $ecCount !=0) echo ",";
@@ -203,7 +188,6 @@ else if($request_format == 'html') {
 	FormatConverter::printHTML($rntData["EarthChem"]);
     FormatConverter::printHTML($rntData["PetDB"]);
     FormatConverter::printHTML($rntData["SedDB"]);
-    FormatConverter::printHTML($rntData["VentDB"]);
     FormatConverter::printHTML($rntData["SESAR"]);
     
 	echo '</tr>';

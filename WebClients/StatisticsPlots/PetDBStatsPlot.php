@@ -59,7 +59,49 @@ class PetDBStatsPlot extends WebClient
 		$idx=$idx+1;
 	}
 
+
+        //Get ECDB statistics 
+        //$ecdburl = "https://ecapi.earthchem.org/statistics/downloadstatistics?start=2018-11-01&end=2019-03-01";
+        $ecdburl = "https://ecapi.earthchem.org/statistics/downloadstatistics";
+        $firstParam=true;
+        foreach ($this->params as $key => $value )
+        {
+               if( $firstParam )
+               {
+                 $ecdburl .= '?'.$key."=".$value;
+                 $firstParam=false;
+               }
+               else
+               {
+                 $ecdburl .= "&".$key."=".$value;
+               }
+        }
+
+        $ecdbxml=file_get_contents($ecdburl);
+
+        $ecdbdata = new SimpleXMLElement($ecdbxml);
+        //$ecdbdata = new SimpleXMLElement($stringxml);
+
+        //Merge PetDB and ECDB statistics data
+        foreach( $ecdbdata->RECORD as $row )
+        {
+            $year  = $row->YEAR;
+            $month = $row->MONTH;
+            $dateStr = $year.",".$month;
+            foreach ( $plotArray2 as $index=>$values)
+            {
+                  if( $dateStr == $values[0]) //same year and same month
+                  { //add ecdb stats to plotArray2
+                    $totalIPs = intval($row->UNIQUE_IP) + intval($values[1]);
+                    $totalDownloads = intval($row->MONTHLY_DOWNLOAD) + intval($values[2]);
+                    $plotArray2[$index]= array($dateStr,$totalIPs, $totalDownloads);
+                  }
+            }
+        }
+
+        //Merge all statistics
 	$arr = array_merge($plotArray,$plotArray2);
+
 	return json_encode($arr);
     }
 
