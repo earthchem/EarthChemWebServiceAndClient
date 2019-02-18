@@ -78,26 +78,9 @@ class PetDBStatsPlot extends WebClient
         }
 
         $ecdbxml=file_get_contents($ecdburl);
-$stringxml = '<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<STATISTICS type="DOWNLOAD">
-  <RECORD>
-    <YEAR>2018</YEAR>
-    <MONTH>12</MONTH>
-    <UNIQUE_IP>3</UNIQUE_IP>
-    <UNIQUE_EMAIL>2</UNIQUE_EMAIL>
-    <MONTHLY_DOWNLOAD>4</MONTHLY_DOWNLOAD>
-  </RECORD>
-  <RECORD>
-    <YEAR>2019</YEAR>
-    <MONTH>1</MONTH>
-    <UNIQUE_IP>106</UNIQUE_IP>
-    <UNIQUE_EMAIL>70</UNIQUE_EMAIL>
-    <MONTHLY_DOWNLOAD>332</MONTHLY_DOWNLOAD>
-  </RECORD>
-</STATISTICS>
-';
-        //$ecdbdata = new SimpleXMLElement($xml);
-        $ecdbdata = new SimpleXMLElement($stringxml);
+
+        $ecdbdata = new SimpleXMLElement($ecdbxml);
+        //$ecdbdata = new SimpleXMLElement($stringxml);
 
         //Merge PetDB and ECDB statistics data
         foreach( $ecdbdata->RECORD as $row )
