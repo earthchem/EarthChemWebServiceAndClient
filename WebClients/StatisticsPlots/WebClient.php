@@ -11,6 +11,7 @@
 
 class WebClient {
   private $url; //Web service base URI
+  protected $params; //Web service params
 
        //Constructor
        //$webservice_url: Web Service URL such as http://www.earthchemportal.org/citation_stats
@@ -20,6 +21,7 @@ class WebClient {
        {
            //Assemble the whole url string
            $this->url=$webservice_url;
+           $this->params = $urlParams;
            $firstParam=true;
            foreach ($urlParams as $key => $value )
            {

@@ -59,7 +59,66 @@ class PetDBStatsPlot extends WebClient
 		$idx=$idx+1;
 	}
 
+
+        //Get ECDB statistics 
+        //$ecdburl = "https://ecapi.earthchem.org/statistics/downloadstatistics?start=2018-11-01&end=2019-03-01";
+        $ecdburl = "https://ecapi.earthchem.org/statistics/downloadstatistics";
+        $firstParam=true;
+        foreach ($this->params as $key => $value )
+        {
+               if( $firstParam )
+               {
+                 $ecdburl .= '?'.$key."=".$value;
+                 $firstParam=false;
+               }
+               else
+               {
+                 $ecdburl .= "&".$key."=".$value;
+               }
+        }
+
+        $ecdbxml=file_get_contents($ecdburl);
+$stringxml = '<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<STATISTICS type="DOWNLOAD">
+  <RECORD>
+    <YEAR>2018</YEAR>
+    <MONTH>12</MONTH>
+    <UNIQUE_IP>3</UNIQUE_IP>
+    <UNIQUE_EMAIL>2</UNIQUE_EMAIL>
+    <MONTHLY_DOWNLOAD>4</MONTHLY_DOWNLOAD>
+  </RECORD>
+  <RECORD>
+    <YEAR>2019</YEAR>
+    <MONTH>1</MONTH>
+    <UNIQUE_IP>106</UNIQUE_IP>
+    <UNIQUE_EMAIL>70</UNIQUE_EMAIL>
+    <MONTHLY_DOWNLOAD>332</MONTHLY_DOWNLOAD>
+  </RECORD>
+</STATISTICS>
+';
+        //$ecdbdata = new SimpleXMLElement($xml);
+        $ecdbdata = new SimpleXMLElement($stringxml);
+
+        //Merge PetDB and ECDB statistics data
+        foreach( $ecdbdata->RECORD as $row )
+        {
+            $year  = $row->YEAR;
+            $month = $row->MONTH;
+            $dateStr = $year.",".$month;
+            foreach ( $plotArray2 as $index=>$values)
+            {
+                  if( $dateStr == $values[0]) //same year and same month
+                  { //add ecdb stats to plotArray2
+                    $totalIPs = intval($row->UNIQUE_IP) + intval($values[1]);
+                    $totalDownloads = intval($row->MONTHLY_DOWNLOAD) + intval($values[2]);
+                    $plotArray2[$index]= array($dateStr,$totalIPs, $totalDownloads);
+                  }
+            }
+        }
+
+        //Merge all statistics
 	$arr = array_merge($plotArray,$plotArray2);
+
 	return json_encode($arr);
     }
 
