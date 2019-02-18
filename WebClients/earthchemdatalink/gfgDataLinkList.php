@@ -35,7 +35,7 @@ exit;
 }
 
 /* connect to awardtracker db */
-$awardHandle = new PostgreSQLDBHandler(SERVERNAME1, PORT1,DBNAME1, DBLOGIN1, DBPASSWORD1);
+$awardHandle = new PostgreSQLDBHandler(SERVERNAME2, PORT1,DBNAME1, DBLOGIN1, DBPASSWORD1);
 $awardHandle->connect();
 
 /* Step 1. Get data_collection_id and data_value from tracker table for specific nsf_award_num */
@@ -129,25 +129,25 @@ if ( $grlIdx > 0 )
 else
   $ecCount =0;
 //-------------------------- Get Author and dataset information from PetDB database
-$petHandle = new OracleDBHandler(SERVERNAME1, PORT3,DBNAME3, DBLOGIN3, DBPASSWORD3);
-if($petdbIdx > 0 )
-  $petCount = $petHandle->getInformationFromPetDB($refData["PetDB"], $rntData["PetDB"],$uriArray["PetDB"]['curl'],$uriArray["PetDB"]['cname']);
-else
+//$petHandle = new OracleDBHandler(SERVERNAME1, PORT3,DBNAME3, DBLOGIN3, DBPASSWORD3);
+//if($petdbIdx > 0 )
+//  $petCount = $petHandle->getInformationFromPetDB($refData["PetDB"], $rntData["PetDB"],$uriArray["PetDB"]['curl'],$uriArray["PetDB"]['cname']);
+//else
   $petCount=0;
 
 //-------------------------- Get Author and dataset information from SedDB database
-$sedHandle = new OracleDBHandler(SERVERNAME1, PORT3,DBNAME4, DBLOGIN4, DBPASSWORD3);
-if($seddbIdx > 0 )
-  $sedCount = $sedHandle->getInformationFromSedDB($refData["SedDB"], $rntData["SedDB"],$uriArray["SedDB"]['curl'],$uriArray["SedDB"]['cname']);
-else 
+//$sedHandle = new OracleDBHandler(SERVERNAME1, PORT3,DBNAME4, DBLOGIN4, DBPASSWORD3);
+//if($seddbIdx > 0 )
+ // $sedCount = $sedHandle->getInformationFromSedDB($refData["SedDB"], $rntData["SedDB"],$uriArray["SedDB"]['curl'],$uriArray["SedDB"]['cname']);
+//else 
   $sedCount=0;
 
 //-------------------------- Get Author and dataset information from VentDB database
-$ventHandle = new OracleDBHandler(SERVERNAME1, PORT3,DBNAME5, DBLOGIN5, DBPASSWORD3);
-if($ventdbIdx > 0 )
-  $ventCount = $ventHandle->getInformationFromVentDB($refData["VentDB"], $rntData["VentDB"],$uriArray["VentDB"]['curl'],$uriArray["VentDB"]['cname']);
-else 
-  $ventCount=0;
+//$ventHandle = new OracleDBHandler(SERVERNAME1, PORT3,DBNAME5, DBLOGIN5, DBPASSWORD3);
+//if($ventdbIdx > 0 )
+ // $ventCount = $ventHandle->getInformationFromVentDB($refData["VentDB"], $rntData["VentDB"],$uriArray["VentDB"]['curl'],$uriArray["VentDB"]['cname']);
+//else 
+ // $ventCount=0;
 
 //-------------------------- Get dataset information from SESAR database
 $sesarHandle = new PostgreSQLDBHandler(SERVERNAME2, PORT4,DBNAME6, DBLOGIN6, DBPASSWORD4);
