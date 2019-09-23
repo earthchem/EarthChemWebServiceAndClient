@@ -82,25 +82,40 @@ class PetDBStatsPlot extends WebClient
         $ecdbdata = new SimpleXMLElement($ecdbxml);
         //$ecdbdata = new SimpleXMLElement($stringxml);
 
+        $plotArray3=array();
+        foreach ( $plotArray2 as $index=>$values)
+        {
+            $ym=explode(",",$values[0]);
+            if($ym[0] < 2018)
+              $plotArray3[]=$values;
+            else
+              if($ym[0] == 2018)
+                if($ym[1] < 12)
+                  $plotArray3[]=$values;
+        }
         //Merge PetDB and ECDB statistics data
         foreach( $ecdbdata->RECORD as $row )
         {
             $year  = $row->YEAR;
             $month = $row->MONTH;
             $dateStr = $year.",".$month;
+            $notfound=true;
             foreach ( $plotArray2 as $index=>$values)
             {
                   if( $dateStr == $values[0]) //same year and same month
                   { //add ecdb stats to plotArray2
                     $totalIPs = intval($row->UNIQUE_IP) + intval($values[1]);
                     $totalDownloads = intval($row->MONTHLY_DOWNLOAD) + intval($values[2]);
-                    $plotArray2[$index]= array($dateStr,$totalIPs, $totalDownloads);
+                    $plotArray3[]= array($dateStr,$totalIPs, $totalDownloads);
+                    $notfound=false;
                   }
             }
+            if($notfound == true)
+              $plotArray3[]=array($dateStr,intval($row->UNIQUE_IP),intval($row->MONTHLY_DOWNLOAD));
         }
 
         //Merge all statistics
-	$arr = array_merge($plotArray,$plotArray2);
+	$arr = array_merge($plotArray,$plotArray3);
 
 	return json_encode($arr);
     }
