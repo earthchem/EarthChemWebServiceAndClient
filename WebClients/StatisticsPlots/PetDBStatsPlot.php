@@ -34,6 +34,7 @@ class PetDBStatsPlot extends WebClient
         return $data;
     }
 
+    //assemble data array for the display by PetDBStatsPlotView.php
     public function getPlotArray()
     {
         $plotArray = $this->getDataFromFile();
@@ -42,22 +43,23 @@ class PetDBStatsPlot extends WebClient
         $tt = explode(",",$ti[0]);
         $lastyear = $tt[0];
         $lastmonth = $tt[1];
+
         //
         //Turn on the following once we have data in the database.
         //
-	$xmldata=$this->getSimpleXMLElement();
-	$idx=0;
-        $plotArray2 = null;
-	foreach( $xmldata->RECORD as $row )
-        {	
-		$year= $row->YEAR;
-                if( intval($year) < intval($lastyear)) continue;
-		$month = $row->MONTH;
-                if( (intval($year) == intval($lastyear)) && intval($month) <= intval($lastmonth)) continue;
-		$dateStr = $year.",".$month;
-		$plotArray2[$idx]= array("$dateStr",intval("$row->UNIQUE_IP"), intval("$row->MONTHLY_DOWNLOAD"));
-		$idx=$idx+1;
-	}
+	//$xmldata=$this->getSimpleXMLElement();
+	//$idx=0;
+        //$plotArray2 = null;
+	//foreach( $xmldata->RECORD as $row )
+        //{	
+	//	$year= $row->YEAR;
+         //       if( intval($year) < intval($lastyear)) continue;
+	//	$month = $row->MONTH;
+         //       if( (intval($year) == intval($lastyear)) && intval($month) <= intval($lastmonth)) continue;
+	//	$dateStr = $year.",".$month;
+	//	$plotArray2[$idx]= array("$dateStr",intval("$row->UNIQUE_IP"), intval("$row->MONTHLY_DOWNLOAD"));
+	//	$idx=$idx+1;
+	//}
 
 
         //Get ECDB statistics 
@@ -82,37 +84,59 @@ class PetDBStatsPlot extends WebClient
         $ecdbdata = new SimpleXMLElement($ecdbxml);
         //$ecdbdata = new SimpleXMLElement($stringxml);
 
-        $plotArray3=array();
-        foreach ( $plotArray2 as $index=>$values)
-        {
-            $ym=explode(",",$values[0]);
-            if($ym[0] < 2018)
-              $plotArray3[]=$values;
-            else
-              if($ym[0] == 2018)
-                if($ym[1] < 12)
-                  $plotArray3[]=$values;
-        }
-        //Merge PetDB and ECDB statistics data
+        //Get ECDB data to array of array { '2019'=>array( '1'=> array(23,45)) }
+        $ecdbdataArray = array();
         foreach( $ecdbdata->RECORD as $row )
         {
-            $year  = $row->YEAR;
-            $month = $row->MONTH;
-            $dateStr = $year.",".$month;
+          
+           $year  = $row->YEAR;
+           $month = $row->MONTH;
+           $ipnum = $row->UNIQUE_IP;
+           $downloadnum = $row->MONTHLY_DOWNLOAD;
+           if(!isset($ecdbdataArray["$year"]) )
+           {
+             $month = $row->MONTH;
+             $ipnum = $row->UNIQUE_IP;
+             $downloadnum = $row->MONTHLY_DOWNLOAD;
+             $ecdbdataArray["$year"] = array( "$month" => array("ip"=>$ipnum,"download"=>$downloadnum));
+           }
+           else
+           {
+             $ecdbdataArray["$year"]["$month"] = array("ip"=>$ipnum,"download"=>$downloadnum);
+           }
+         
+        }
+
+        $plotArray3=array();
+        foreach( $ecdbdataArray as $year => $mondata )
+        {
+          foreach( $mondata as $mon =>$value)
+          {
+            $month = $mon;
+
+            if(intval($month)<10)
+              $dateStr = $year.",0".$month;
+            else
+              $dateStr = $year.",".$month;
             $notfound=true;
-            foreach ( $plotArray2 as $index=>$values)
+            $ipt = $value["ip"];
+            $downt = $value["download"];
+            foreach ( $plotArray as $index=>$values)
             {
                   if( $dateStr == $values[0]) //same year and same month
-                  { //add ecdb stats to plotArray2
-                    $totalIPs = intval($row->UNIQUE_IP) + intval($values[1]);
-                    $totalDownloads = intval($row->MONTHLY_DOWNLOAD) + intval($values[2]);
-                    $plotArray3[]= array($dateStr,$totalIPs, $totalDownloads);
+                  { //add ecdb stats to plotArray
+                    $totalIPs = intval($ipt) + intval($values[1]);
+                    $totalDownloads = intval($downt) + intval($values[2]);
+                    $plotArray["$index"]= array($dateStr,$totalIPs, $totalDownloads);
                     $notfound=false;
                   }
             }
             if($notfound == true)
-              $plotArray3[]=array($dateStr,intval($row->UNIQUE_IP),intval($row->MONTHLY_DOWNLOAD));
-        }
+              $plotArray3[]=array($dateStr,intval($ipt),intval($downt));
+            $notfound=true; //reset value
+          }
+         }
+       
 
         //Merge all statistics
 	$arr = array_merge($plotArray,$plotArray3);
