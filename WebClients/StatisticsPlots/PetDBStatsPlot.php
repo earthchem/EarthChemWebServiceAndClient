@@ -63,28 +63,9 @@ class PetDBStatsPlot extends WebClient
 
 
         //Get ECDB statistics 
-        //$ecdburl = "https://ecapi.earthchem.org/statistics/downloadstatistics?start=2018-11-01&end=2019-03-01";
-        $ecdburl = "https://ecapi.earthchem.org/statistics/downloadstatistics";
-        $firstParam=true;
-        foreach ($this->params as $key => $value )
-        {
-               if( $firstParam )
-               {
-                 $ecdburl .= '?'.$key."=".$value;
-                 $firstParam=false;
-               }
-               else
-               {
-                 $ecdburl .= "&".$key."=".$value;
-               }
-        }
+        $ecdbdata = $this->getSimpleXMLElement();
 
-        $ecdbxml=file_get_contents($ecdburl);
-
-        $ecdbdata = new SimpleXMLElement($ecdbxml);
-        //$ecdbdata = new SimpleXMLElement($stringxml);
-
-        //Get ECDB data to array of array { '2019'=>array( '1'=> array(23,45)) }
+        //Parse ECDB data and store them to array of array { '2019'=>array( '1'=> array(23,45)) }
         $ecdbdataArray = array();
         foreach( $ecdbdata->RECORD as $row )
         {

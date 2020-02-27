@@ -12,11 +12,14 @@ date_default_timezone_set('America/New_York');
 $startTime = "2017-06-01";
 $firstDayThisMonth = date('Y-n-j', strtotime("first day of this month"));
 
-$plotview = new PetDBStatsPlot("http://isotope.ldeo.columbia.edu:7001/petdbWeb/search/download_stat.jsp",  
+$plotview = new PetDBStatsPlot("https://ecapi.earthchem.org/statistics/downloadstatistics",  
                               array("start"=>"$startTime","end"=>"$firstDayThisMonth") 
                             );
 
 $plotData = json_decode($plotview->getPlotArray());
+//echo "start=".$startTime."\n";
+//echo "end=".$firstDayThisMonth."\n";
+//echo $plotview->getPlotArray();
 
 ?>
 <html>
