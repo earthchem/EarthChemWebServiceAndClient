@@ -44,24 +44,6 @@ class PetDBStatsPlot extends WebClient
         $lastyear = $tt[0];
         $lastmonth = $tt[1];
 
-        //
-        //Turn on the following once we have data in the database.
-        //
-	//$xmldata=$this->getSimpleXMLElement();
-	//$idx=0;
-        //$plotArray2 = null;
-	//foreach( $xmldata->RECORD as $row )
-        //{	
-	//	$year= $row->YEAR;
-         //       if( intval($year) < intval($lastyear)) continue;
-	//	$month = $row->MONTH;
-         //       if( (intval($year) == intval($lastyear)) && intval($month) <= intval($lastmonth)) continue;
-	//	$dateStr = $year.",".$month;
-	//	$plotArray2[$idx]= array("$dateStr",intval("$row->UNIQUE_IP"), intval("$row->MONTHLY_DOWNLOAD"));
-	//	$idx=$idx+1;
-	//}
-
-
         //Get ECDB statistics 
         $ecdbdata = $this->getSimpleXMLElement();
 
