@@ -111,12 +111,28 @@ class PetDBStatsPlot extends WebClient
     {
         $plotArray1 = PetDBStatsPlot::getPieChartDataFromFile();
         
-        date_default_timezone_set('America/New_York');
-        $currentTime  = mktime(0, 0, 0, date("m"),   date("d"),   date("Y") -0);
-        $today = date('Y-m-d', $currentTime);
-
-        $url = "http://www.earthchem.org/petdbWeb/search/download_purpose_stat.jsp?start=2017-11-01&end=".$today;
-        $xml=file_get_contents($url);
+        $xml = "<STATISTICS type=\"DOWNLOAD_PURPOSE\">
+                  <RECORD>
+                    <PURPOSE_CNT>12</PURPOSE_CNT>
+                    <PURPOSE>commercial</PURPOSE>
+                  </RECORD>
+                  <RECORD>
+                    <PURPOSE_CNT>1054</PURPOSE_CNT>
+                    <PURPOSE>education</PURPOSE>
+                  </RECORD>
+                  <RECORD>
+                    <PURPOSE_CNT>603</PURPOSE_CNT>
+                    <PURPOSE>null</PURPOSE>
+                  </RECORD>
+                  <RECORD>
+                    <PURPOSE_CNT>127</PURPOSE_CNT>
+                    <PURPOSE>other</PURPOSE>
+                  </RECORD>
+                  <RECORD>
+                    <PURPOSE_CNT>2465</PURPOSE_CNT>
+                    <PURPOSE>research</PURPOSE>
+                  </RECORD>
+               </STATISTICS>";
         $data = new SimpleXMLElement($xml);
 
         $plotArray2 = array();
