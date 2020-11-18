@@ -13,7 +13,7 @@ $nextyear  = mktime(0, 0, 0, date("m"),   date("d"),   date("Y")-1);
 //$monthOneYearBefore = date('Y-n', $nextyear);
 $monthOneYearBefore = '2011-01';
 
-$plotview = new ECPStatsPlot("http://www.earthchemportal.org/citation_stats",  
+$plotview = new ECPStatsPlot("http://portal.earthchem.org/citation_stats",  
                               array("v"=>"xml","start_month"=>"$monthOneYearBefore") 
                             );
 $plotData = json_decode( $plotview->getPlotArray() );
