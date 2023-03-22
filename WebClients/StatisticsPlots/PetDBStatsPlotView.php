@@ -71,6 +71,7 @@ $plotData = json_decode($plotview->getPlotArray());
                 var dom_options = {
                         title: 'PetDB Usage',
                         colors:['#728FCE','#C34A2C'],
+                        backgroundColor: '#f7f7f7',
                         selectionMode: 'multiple',
                         isStacked: false,
                         areaOpacity:'0.4',

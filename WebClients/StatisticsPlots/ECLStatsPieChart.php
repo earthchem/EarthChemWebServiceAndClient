@@ -41,8 +41,8 @@ foreach ($pieChartData as $index => $value )
         var options = {
           title: 'ECL Download Statistics (<?= $start_date ?> to <?= $end_date?>)\n* <?=$totalCnt?> dataset downloads\n* <?=$ipCnt?> unique IP addresses',
           titleTextStyle: {'color':'#893d12'},
-          is3D: true,
-          colors: ['#e6693e', '#6a88c1', '#8ff7b6', '#f3b49f','#835C3B']
+          colors: ['#e6693e', '#6a88c1', '#8ff7b6', '#f3b49f','#835C3B'],
+          backgroundColor: '#f7f7f7'
         };
 
         var chart = new google.visualization.PieChart(document.getElementById('piechart'));
