@@ -40,7 +40,7 @@ $totalCnt = $pieData->TOTAL->citations;
         var options = {
           title: 'EarthChem Portal Citation Statistics\n* <?=$totalCnt?> total citations\n* USGS is not represented as their data does not come from citations',
           titleTextStyle: {'color':'#893d12'},
-          // colors: ['#e6693e', '#6a88c1', '#8ff7b6', '#f3b49f', '#e6693e'],
+          colors: ['#D6706a', '#178497', '#89211B', '#364e55', '#364e55', '#45110e'],
           backgroundColor: '#f7f7f7',
           sliceVisibilityThreshold: 0,
           pieSliceText: 'none',

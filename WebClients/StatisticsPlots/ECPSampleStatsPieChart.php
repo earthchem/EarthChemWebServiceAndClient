@@ -36,11 +36,11 @@ $totalChemical = $pieData->TOTAL->analyses;
       google.charts.setOnLoadCallback(drawChart);
       function drawChart() {
         const data = [
-          ['NAVDAT', <?= $navdatSamples?>, customTooltip('NAVDAT')],
-          ['EarthChem', <?= $earthchemSamples ?>, customTooltip('EarthChem')],
-          ['GEOROC', <?= $georocSamples ?>, customTooltip('GEOROC')],
-          ['USGS', <?= $usgsSamples ?>, customTooltip('USGS')],
-          ['Other', <?= $otherSamples ?>, customTooltip('Other')]
+          ['NAVDAT', <?= $navdatChemical?>, customTooltip('NAVDAT')],
+          ['EarthChem', <?= $earthchemChemical ?>, customTooltip('EarthChem')],
+          ['GEOROC', <?= $georocChemical ?>, customTooltip('GEOROC')],
+          ['USGS', <?= $usgsChemical ?>, customTooltip('USGS')],
+          ['Other', <?= $otherChemical ?>, customTooltip('Other')]
         ]
 
         // const dataTable = google.visualization.arrayToDataTable();
@@ -53,9 +53,10 @@ $totalChemical = $pieData->TOTAL->analyses;
         dataTable.addRows(data);
 
         const options = {
-          title: 'EarthChem Portal Sample Statistics\n* <?=$totalSamples?> total samples',
+          title: 'EarthChem Portal Sample and Chemical Values Statistics\n* <?=$totalSamples?> total samples\n* <?=$totalChemical?> total chemical values',
           titleTextStyle: {'color':'#893d12'},
           // colors: ['#e6693e', '#6a88c1', '#8ff7b6', '#f3b49f', '#e6693e'],
+          colors: ['#45110e', '#178497', '#89211B', '#D6706a', '#364e55', '#45110e'],
           backgroundColor: '#f7f7f7',
           sliceVisibilityThreshold: 0,
           pieSliceText: 'none',
@@ -93,8 +94,8 @@ $totalChemical = $pieData->TOTAL->analyses;
         }
         return '<div style="padding:5px 20px;font-color:#893d12;font-size:16px;">'+
             '<p>' + database + '</p>' +
-            '<p>' + sampleData.toLocaleString("en-US") +' samples</p>' +
-            '<p>' + chemicalData.toLocaleString("en-US") +' chemical values</p>' +
+            '<p style="font-weight: bold;">' + sampleData.toLocaleString("en-US") +' samples</p>' +
+            '<p style="font-weight: bold;">' + chemicalData.toLocaleString("en-US") +' chemical values</p>' +
             '</div>';
       }
     </script>

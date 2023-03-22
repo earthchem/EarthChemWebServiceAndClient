@@ -67,7 +67,7 @@ $plotData = json_decode( $plotview->getPlotArray() );
                  ?>
 		var dom_options = {
 			title: 'EarthChem Portal Usage',
-      colors:['#728FCE','#C34A2C'],
+      colors:['#178497','#89211B'],
       backgroundColor: '#f7f7f7',
       selectionMode: 'multiple',
 			isStacked: false,
