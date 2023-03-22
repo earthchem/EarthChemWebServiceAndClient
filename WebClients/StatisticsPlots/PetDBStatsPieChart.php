@@ -43,8 +43,8 @@ foreach ($pieChartData as $index => $value )
         var options = {
           title: 'PetDB Download Statistics (Oct 12, 2012 to <?= $monthCurrentYear ?>)\n* <?=$totalCnt?> integrated dataset downloads\n* <?=$ipCnt?> unique IP addresses',
           titleTextStyle: {'color':'#893d12'},
-          is3D: true,
-          colors: ['#e6693e', '#6a88c1', '#8ff7b6', '#f3b49f']
+          colors: ['#e6693e', '#6a88c1', '#8ff7b6', '#f3b49f'],
+          backgroundColor: '#f7f7f7'
         };
 
         var chart = new google.visualization.PieChart(document.getElementById('piechart'));
