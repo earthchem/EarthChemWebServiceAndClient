@@ -11,7 +11,7 @@ require_once 'ECPStatsPlot.php';
 date_default_timezone_set('America/New_York');
 $nextyear  = mktime(0, 0, 0, date("m"),   date("d"),   date("Y")-1);
 //$monthOneYearBefore = date('Y-n', $nextyear);
-$monthOneYearBefore = '2011-01';
+$monthOneYearBefore = '2020-08';
 
 $plotview = new ECPStatsPlot("http://portal.earthchem.org/citation_stats",  
                               array("v"=>"xml","start_month"=>"$monthOneYearBefore") 
@@ -67,22 +67,23 @@ $plotData = json_decode( $plotview->getPlotArray() );
                  ?>
 		var dom_options = {
 			title: 'EarthChem Portal Usage',
-                        colors:['#728FCE','#C34A2C'],
-                        selectionMode: 'multiple',
+      colors:['#728FCE','#C34A2C'],
+      backgroundColor: '#f7f7f7',
+      selectionMode: 'multiple',
 			isStacked: false,
-                        areaOpacity:'0.4',
+      areaOpacity:'0.4',
 			hAxis: {title: 'Month',
-                                gridlines:{count: '8'}
-                               },
-                        vAxes: { 
-                                 0: {title: 'IP addresses',
-                                    minValue:0},
-                                 1: {title: 'Downloads',
-                                    minValue: 0}
-                               },
-                        series: { 0:{targetAxisIndex:0},
-                                  1:{targetAxisIndex:1}
-                                },
+        gridlines:{count: '8'}
+      },
+      vAxes: { 
+        0: {title: 'IP addresses',
+          minValue:0},
+        1: {title: 'Downloads',
+          minValue: 0}
+      },
+      series: { 0:{targetAxisIndex:0},
+        1:{targetAxisIndex:1}
+      },
 
 			focusTarget: 'category',
 			aggregationTarget: 'category',

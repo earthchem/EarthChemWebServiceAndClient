@@ -35,6 +35,21 @@ class ECPStatsPlot extends WebClient
 		}
 		return json_encode($plotArray);
 	}
+
+	public function getHoldingsData()
+	{
+		$xmldata=$this->getSimpleXMLElement();
+		$data = array();
+		$idx = 0;
+		foreach( $xmldata->row as $row )
+		{
+			$rowName = (string) $row->name;
+			unset($row->name);
+			$data[$rowName] = $row;
+
+		}
+		return json_encode($data);
+	}
 }
 
 ?>
