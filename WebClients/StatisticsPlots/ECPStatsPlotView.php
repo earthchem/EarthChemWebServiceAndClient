@@ -30,7 +30,6 @@ $plotData = json_decode( $plotview->getPlotArray() );
 	function drawChart() {
 		var dom_data = new google.visualization.DataTable();
 		dom_data.addColumn('date', 'Month');
-		dom_data.addColumn('number', 'Unique IP addresses');
 		dom_data.addColumn('number', 'Unique data downloads');
                 dom_data.addRows(<?= sizeof($plotData) ?>);
                  <?php
@@ -59,15 +58,14 @@ $plotData = json_decode( $plotview->getPlotArray() );
 
                  ?>
                  dom_data.setCell( <?=$index?>,0, new Date( <?= $dateStr ?> ) );
-                 dom_data.setCell( <?=$index?>,1, <?= $row[2] ?> );
-                 dom_data.setCell( <?=$index?>,2, <?= $row[1] ?> );
+                 dom_data.setCell( <?=$index?>,1, <?= $row[1] ?> );
                  <?php
                      $idx++;
                  } 
                  ?>
 		var dom_options = {
 			title: 'EarthChem Portal Usage',
-      colors:['#178497','#89211B'],
+      colors:['#89211B'],
       backgroundColor: '#f7f7f7',
       selectionMode: 'multiple',
 			isStacked: false,
@@ -76,10 +74,8 @@ $plotData = json_decode( $plotview->getPlotArray() );
         gridlines:{count: '8'}
       },
       vAxes: { 
-        0: {title: 'IP addresses',
+        0: {title: 'Downloads',
           minValue:0},
-        1: {title: 'Downloads',
-          minValue: 0}
       },
       series: { 0:{targetAxisIndex:0},
         1:{targetAxisIndex:1}
