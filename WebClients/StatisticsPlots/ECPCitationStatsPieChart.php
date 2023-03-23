@@ -56,7 +56,9 @@ $totalCnt = $pieData->TOTAL->citations;
     </script>
   </head>
   <body>
-      <div id="piechart" style="width: 900px; height: 500px;"></div>
+    <div style="max-width: 100%; padding-top: 66.66%; position: relative; width: 100%;">
+      <div id="piechart" style="position: absolute; top: 0; left: 0;width: 100%; height: 100%;"></div>
+    </div>
   </body>
 
 </html>
