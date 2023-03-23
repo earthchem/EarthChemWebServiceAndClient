@@ -61,7 +61,8 @@ $totalChemical = $pieData->TOTAL->analyses;
           sliceVisibilityThreshold: 0,
           pieSliceText: 'none',
           tooltip: {isHtml: true},
-          legend: { position: 'labeled',labeledValueText: 'both', }
+          legend: { position: 'labeled',labeledValueText: 'both', },
+          chartArea: {'width': '90%', 'height': '60%'},
         };
 
         const chart = new google.visualization.PieChart(document.getElementById('piechart'));

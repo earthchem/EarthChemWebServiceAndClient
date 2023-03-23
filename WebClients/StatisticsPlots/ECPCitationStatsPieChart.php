@@ -45,8 +45,8 @@ $totalCnt = $pieData->TOTAL->citations;
           sliceVisibilityThreshold: 0,
           pieSliceText: 'none',
           tooltip: {isHtml: true},
-          legend: { position: 'labeled', labeledValueText: 'value' }
-
+          legend: { position: 'labeled', labeledValueText: 'value' },
+          chartArea: {'width': '90%', 'height': '60%'},
         };
 
         var chart = new google.visualization.PieChart(document.getElementById('piechart'));
